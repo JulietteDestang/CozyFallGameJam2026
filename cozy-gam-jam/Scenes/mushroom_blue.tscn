@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://djc4kprbyvrqe"]
+
+[ext_resource type="Script" uid="uid://uyc3osolov0l" path="res://Scripts/Interactable/mushroom.gd" id="1_ly83m"]
+[ext_resource type="Script" uid="uid://4oq757a3t6rg" path="res://Scripts/Interactable/growing_radius.gd" id="2_x6vgj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jwiey"]
+albedo_color = Color(0, 0.37254903, 0.85490197, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_274va"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_274va"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_274va"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uj3h4"]
+transparency = 1
+albedo_color = Color(1, 0, 0, 0.7294118)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_274va"]
+height = 0.001
+
+[node name="Mushroom" type="StaticBody3D" unique_id=1916214976]
+script = ExtResource("1_ly83m")
+
+[node name="MeshMushroom" type="MeshInstance3D" parent="." unique_id=719169820]
+transform = Transform3D(0.1, 0, 0, 0, 0.065, 0, 0, 0, 0.1, 0, 0.07200317, 0)
+material_override = SubResource("StandardMaterial3D_jwiey")
+mesh = SubResource("SphereMesh_274va")
+
+[node name="MeshMushroom" type="MeshInstance3D" parent="MeshMushroom" unique_id=287161097]
+transform = Transform3D(0.643, 0, 0, 0, 0.82, 0, 0, 0, 0.643, 0, -0.72316283, 0)
+material_override = SubResource("StandardMaterial3D_274va")
+mesh = SubResource("SphereMesh_274va")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=613135517]
+transform = Transform3D(0.115, 0, 0, 0, 0.115, 0, 0, 0, 0.115, 0, 0.055010546, 0)
+shape = SubResource("SphereShape3D_274va")
+
+[node name="RadiusIndicator" type="MeshInstance3D" parent="." unique_id=985426676]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0.002032796, 0)
+material_override = SubResource("StandardMaterial3D_uj3h4")
+mesh = SubResource("CylinderMesh_274va")
+
+[node name="GrowingRadius" type="Node" parent="." unique_id=2096926596]
+script = ExtResource("2_x6vgj")

@@ -2,7 +2,7 @@ extends Node
 
 var mushroom_scenes: Dictionary = {
 	"brown": preload("res://Scenes/mushroom_brown.tscn"),
-	"red": preload("res://Scenes/mushroom_red.tscn"),
+	"blue": preload("res://Scenes/mushroom_blue.tscn"),
 }
 
 var selected_mushroom: String = "brown"
