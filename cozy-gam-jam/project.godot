@@ -18,11 +18,18 @@ config/icon="res://icon.svg"
 [autoload]
 
 MushroomManager="*uid://dgm5vkonta6cs"
+PlayerRessources="*uid://b0etl4frr1xhb"
 
 [display]
 
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
+
+[importer_defaults]
+
+scene={
+&"materials/extract": 1
+}
 
 [physics]
 
