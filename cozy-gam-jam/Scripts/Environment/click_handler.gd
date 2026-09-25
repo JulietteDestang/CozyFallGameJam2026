@@ -14,18 +14,11 @@ func _unhandled_input(event: InputEvent) -> void:
 		var result = space_state.intersect_ray(query)
 
 		if result:
-			var collider = result.collider
-			_handle_click(collider, result.position)
-		else:
-			print("Clicked empty space")
+			_handle_click(result.collider, result.position)
 
 func _handle_click(collider: Node, world_pos: Vector3) -> void:
 	if collider.is_in_group("interactable"):
-		print("Clicked: ", collider.name)
 		if collider.has_method("interact"):
 			collider.interact()
 	elif collider.is_in_group("ground"):
-		print("Clicked ground at: ", world_pos)
-		# e.g. move camera focus, place something, deselect
-	else:
-		print("Clicked unknown object: ", collider.name)
+		MushroomManager.spawn_mushroom(MushroomManager.selected_mushroom, world_pos, self)

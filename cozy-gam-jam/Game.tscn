@@ -3,6 +3,20 @@
 [ext_resource type="Script" uid="uid://b436jf8byt3u4" path="res://Scripts/Environment/click_handler.gd" id="1_wbfu4"]
 [ext_resource type="Script" uid="uid://bkmgldsivmfh4" path="res://Scripts/Interactable/ground.gd" id="2_xkndl"]
 
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sb48q"]
+
+[sub_resource type="Sky" id="Sky_u44n3"]
+sky_material = SubResource("ProceduralSkyMaterial_sb48q")
+
+[sub_resource type="Environment" id="Environment_xkndl"]
+background_mode = 2
+sky = SubResource("Sky_u44n3")
+ambient_light_source = 3
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xk8u7"]
+albedo_color = Color(0.13945998, 0.40476263, 0.30641764, 1)
+
 [sub_resource type="PlaneMesh" id="PlaneMesh_6ubv3"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_6ubv3"]
@@ -12,19 +26,25 @@ size = Vector3(1.9927368, 0.024841309, 1.991333)
 script = ExtResource("1_wbfu4")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=891392610]
+environment = SubResource("Environment_xkndl")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1789698307]
-transform = Transform3D(1, 0, 0, 0, 0.19905533, 0.9799883, 0, -0.9799883, 0.19905533, 0, 3.3491845, 0)
-light_color = Color(0.9490196, 1, 1, 1)
-light_energy = 0.842
+transform = Transform3D(0.70710677, 0.5043442, -0.4956177, 0, 0.70090926, 0.71325046, 0.70710677, -0.5043442, 0.4956177, 0, 3.3491845, 0)
+light_color = Color(0.93871576, 0.81462985, 0.69761086, 1)
+light_energy = 1.2
+shadow_enabled = true
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=788564181]
-transform = Transform3D(1, 0, 0, 0, 0.17181015, 0.9851301, 0, -0.9851301, 0.17181015, 0, 1.0057678, 0.21000671)
+transform = Transform3D(1, 0, 0, 0, 0.57357645, 0.81915206, 0, -0.81915206, 0.57357645, 0, 7, 0)
+projection = 1
+size = 4.0
 
 [node name="Ground" type="StaticBody3D" parent="." unique_id=1875396292]
+transform = Transform3D(8.125, 0, 0, 0, 8.125, 0, 0, 0, 8.125, 0, 0, -8.521063)
 script = ExtResource("2_xkndl")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=1948101880]
+material_override = SubResource("StandardMaterial3D_xk8u7")
 mesh = SubResource("PlaneMesh_6ubv3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=1174448774]
