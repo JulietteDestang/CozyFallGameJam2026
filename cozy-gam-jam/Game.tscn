@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://86s8d73ax5jh"]
+
+[ext_resource type="Script" uid="uid://b436jf8byt3u4" path="res://Scripts/Environment/click_handler.gd" id="1_wbfu4"]
+[ext_resource type="Script" uid="uid://bkmgldsivmfh4" path="res://Scripts/Interactable/ground.gd" id="2_xkndl"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_6ubv3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6ubv3"]
+size = Vector3(1.9927368, 0.024841309, 1.991333)
+
+[node name="Game" type="Node3D" unique_id=1219061469]
+script = ExtResource("1_wbfu4")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=891392610]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1789698307]
+transform = Transform3D(1, 0, 0, 0, 0.19905533, 0.9799883, 0, -0.9799883, 0.19905533, 0, 3.3491845, 0)
+light_color = Color(0.9490196, 1, 1, 1)
+light_energy = 0.842
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=788564181]
+transform = Transform3D(1, 0, 0, 0, 0.17181015, 0.9851301, 0, -0.9851301, 0.17181015, 0, 1.0057678, 0.21000671)
+
+[node name="Ground" type="StaticBody3D" parent="." unique_id=1875396292]
+script = ExtResource("2_xkndl")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=1948101880]
+mesh = SubResource("PlaneMesh_6ubv3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=1174448774]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0018005371, 0.00015258789, -0.0004272461)
+shape = SubResource("BoxShape3D_6ubv3")
+
+[node name="Map" type="Node3D" parent="." unique_id=1842958053]
