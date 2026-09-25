@@ -1,11 +1,12 @@
 extends HBoxContainer
 
-@onready var button_brown: Button = $ButtonBrown
-@onready var button_blue: Button = $ButtonBlue
+@onready var button_mothermush: Button = $button1_mothershroom
+@onready var button_lilmush: Button = $button2_lilshroom
+@onready var button_appliance: Button = $button3_myceliumblock
 
 func _ready() -> void:
-	button_brown.pressed.connect(_on_mushroom_selected.bind("brown"))
-	button_blue.pressed.connect(_on_mushroom_selected.bind("blue"))
+	button_mothermush.pressed.connect(_on_mushroom_selected.bind("brown"))
+	button_lilmush.pressed.connect(_on_mushroom_selected.bind("blue"))
 	_update_button_highlight()
 
 func _on_mushroom_selected(type: String) -> void:
@@ -13,5 +14,5 @@ func _on_mushroom_selected(type: String) -> void:
 	_update_button_highlight()
 
 func _update_button_highlight() -> void:
-	button_brown.disabled = (MushroomManager.selected_mushroom == "brown")
-	button_blue.disabled = (MushroomManager.selected_mushroom == "blue")
+	button_mothermush.disabled = (MushroomManager.selected_mushroom == "brown")
+	button_lilmush.disabled = (MushroomManager.selected_mushroom == "blue")

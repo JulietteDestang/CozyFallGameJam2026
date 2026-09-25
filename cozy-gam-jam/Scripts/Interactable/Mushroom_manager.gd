@@ -19,5 +19,6 @@ func spawn_mushroom(type: String, pos: Vector3, parent: Node) -> void:
 		push_warning("Type de champignon inconnu: " + type)
 		return
 	var mushroom = mushroom_scenes[type].instantiate()
+	print("j'ai spawn le mush")
 	parent.add_child(mushroom)
 	mushroom.global_position = pos

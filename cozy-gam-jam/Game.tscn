@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://b436jf8byt3u4" path="res://Scripts/Environment/click_handler.gd" id="1_wbfu4"]
 [ext_resource type="Script" uid="uid://bkmgldsivmfh4" path="res://Scripts/Interactable/ground.gd" id="2_xkndl"]
-[ext_resource type="Script" uid="uid://b7mf85ic7o80r" path="res://Scripts/UI/MushroomMenu.gd" id="3_u44n3"]
+[ext_resource type="PackedScene" uid="uid://etgwuy01scde" path="res://Scenes/UI/UI_ingamebase.tscn" id="4_sb48q"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sb48q"]
 
@@ -56,15 +56,5 @@ shape = SubResource("BoxShape3D_6ubv3")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2098541339]
 
-[node name="MushroomMenu" type="HBoxContainer" parent="CanvasLayer" unique_id=1522077235]
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("3_u44n3")
-
-[node name="ButtonBrown" type="Button" parent="CanvasLayer/MushroomMenu" unique_id=53678665]
-layout_mode = 2
-text = "brown"
-
-[node name="ButtonBlue" type="Button" parent="CanvasLayer/MushroomMenu" unique_id=2073404584]
-layout_mode = 2
-text = "blue"
+[node name="inGameUI" parent="." unique_id=671034291 instance=ExtResource("4_sb48q")]
+mouse_filter = 2

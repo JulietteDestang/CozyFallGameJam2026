@@ -22,3 +22,4 @@ func _handle_click(collider: Node, world_pos: Vector3) -> void:
 			collider.interact()
 	elif collider.is_in_group("ground"):
 		MushroomManager.spawn_mushroom(MushroomManager.selected_mushroom, world_pos, self)
+		print ("j'ai spawn pour de vrai le mushroom")
