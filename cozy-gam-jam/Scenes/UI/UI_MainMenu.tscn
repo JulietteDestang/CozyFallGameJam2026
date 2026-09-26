@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://cri8ttautsyc6"]
+
+[ext_resource type="Script" uid="uid://l2iiioxqvjlr" path="res://Scripts/UI/MainMenu.gd" id="1_46i7v"]
+
+[node name="Control" type="Control" unique_id=2069267632]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_46i7v")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1834591020]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -33.0
+offset_top = -16.0
+offset_right = 33.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control" type="Control" parent="HBoxContainer" unique_id=1960009303]
+custom_minimum_size = Vector2(700, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=923846129]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Start" type="Button" parent="HBoxContainer/VBoxContainer" unique_id=581072830]
+custom_minimum_size = Vector2(225, 160)
+layout_mode = 2
+text = "Start"
+
+[node name="HSeparator" type="HSeparator" parent="HBoxContainer/VBoxContainer" unique_id=39917052]
+layout_mode = 2
+
+[node name="Options" type="Button" parent="HBoxContainer/VBoxContainer" unique_id=2050533341]
+custom_minimum_size = Vector2(225, 160)
+layout_mode = 2
+disabled = true
+text = "Options / How to play"
+
+[node name="HSeparator2" type="HSeparator" parent="HBoxContainer/VBoxContainer" unique_id=1726284968]
+layout_mode = 2
+
+[node name="Exit" type="Button" parent="HBoxContainer/VBoxContainer" unique_id=1926866139]
+custom_minimum_size = Vector2(225, 160)
+layout_mode = 2
+text = "Exit"
+
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/Start" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]
