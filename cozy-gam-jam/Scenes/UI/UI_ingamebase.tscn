@@ -2,6 +2,9 @@
 
 [ext_resource type="Script" uid="uid://b7mf85ic7o80r" path="res://Scripts/UI/MushroomMenu.gd" id="1_1pvvf"]
 [ext_resource type="Texture2D" uid="uid://cpwvs2afny14q" path="res://assets/UI/circle_brown_carvedout.png" id="1_ga52n"]
+[ext_resource type="Texture2D" uid="uid://dm7hfmk76rcdy" path="res://assets/UI/sprite_basemush.jpg" id="2_ogpxo"]
+[ext_resource type="Texture2D" uid="uid://skjt6ki4ayqb" path="res://assets/UI/sprite_redmush.jpg" id="3_we6bn"]
+[ext_resource type="Texture2D" uid="uid://jmsdt0ug8psl" path="res://assets/UI/sprite_bluemush.jpg" id="4_s6gc6"]
 
 [node name="inGameUI" type="Control" unique_id=671034291]
 layout_mode = 3
@@ -31,19 +34,100 @@ size_flags_vertical = 8
 script = ExtResource("1_1pvvf")
 
 [node name="button1_mothershroom" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=779831515]
-custom_minimum_size = Vector2(100, 50)
+custom_minimum_size = Vector2(150, 75)
 layout_mode = 2
-text = "mother mushroom"
+size_flags_vertical = 0
 
-[node name="button2_lilshroom" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=1722778384]
-custom_minimum_size = Vector2(100, 50)
-layout_mode = 2
-text = "lil mushroom"
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainer/button1_mothershroom" unique_id=396393878]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
 
-[node name="button3_myceliumblock" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=1358265098]
-custom_minimum_size = Vector2(100, 50)
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/button1_mothershroom/HBoxContainer" unique_id=780633006]
+custom_minimum_size = Vector2(60, 60)
+custom_maximum_size = Vector2(200, 200)
+propagate_maximum_size = true
 layout_mode = 2
-text = "resource"
+size_flags_horizontal = 0
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("2_ogpxo")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/button1_mothershroom/HBoxContainer" unique_id=401980701]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 11
+text = "[amount]"
+
+[node name="button2_blueshroom" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=730742330]
+custom_minimum_size = Vector2(150, 75)
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainer/button2_blueshroom" unique_id=50552691]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/button2_blueshroom/HBoxContainer" unique_id=1962367626]
+custom_minimum_size = Vector2(60, 60)
+custom_maximum_size = Vector2(200, 200)
+propagate_maximum_size = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("4_s6gc6")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/button2_blueshroom/HBoxContainer" unique_id=434666817]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 11
+text = "[amount]"
+
+[node name="button2_redshroom" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=2071843689]
+custom_minimum_size = Vector2(150, 75)
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainer/button2_redshroom" unique_id=1363657468]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/button2_redshroom/HBoxContainer" unique_id=2019240811]
+custom_minimum_size = Vector2(60, 60)
+custom_maximum_size = Vector2(200, 200)
+propagate_maximum_size = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("3_we6bn")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/button2_redshroom/HBoxContainer" unique_id=1218249042]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 11
+text = "[amount]"
 
 [node name="Control" type="Control" parent="VBoxContainer" unique_id=785284179]
 custom_minimum_size = Vector2(30, 30)

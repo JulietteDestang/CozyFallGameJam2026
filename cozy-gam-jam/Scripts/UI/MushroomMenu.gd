@@ -1,8 +1,8 @@
 extends HBoxContainer
 
 @onready var button_mothermush: Button = $button1_mothershroom
-@onready var button_lilmush: Button = $button2_lilshroom
-@onready var button_appliance: Button = $button3_myceliumblock
+@onready var button_lilmush: Button = $button2_blueshroom
+@onready var button_appliance: Button = $button2_redshroom
 
 func _ready() -> void:
 	button_mothermush.pressed.connect(_on_mushroom_selected.bind("brown"))
