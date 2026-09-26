@@ -15,10 +15,15 @@ run/main_scene="uid://cri8ttautsyc6"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
+[audio]
+
+buses/default_bus_layout="uid://yknxixg5oe00"
+
 [autoload]
 
 MushroomManager="*uid://dgm5vkonta6cs"
 PlayerRessources="*uid://b0etl4frr1xhb"
+GlobalSfxController="*uid://bvj425q2oxity"
 
 [display]
 

@@ -31,5 +31,7 @@ func spawn_mushroom(type: String, pos: Vector3, parent: Node) -> void:
 		print("Impossible de placer ici")
 		mushroom.queue_free()
 		return
+		
+	GlobalSfxController.playMushplacement()
 
 	active_mushrooms.append(mushroom)

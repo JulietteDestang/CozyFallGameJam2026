@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://dgifqel72a04x"]
+
+[ext_resource type="Script" uid="uid://da6wmlh8iiygt" path="res://Scripts/Audio/Global_Audio.gd" id="1_0vlkh"]
+[ext_resource type="AudioStream" uid="uid://bm76r0rejwjeb" path="res://assets/Audio/cosychampi2.mp3" id="1_k2wdk"]
+
+[node name="GameAudio" type="Node" unique_id=911854221]
+script = ExtResource("1_0vlkh")
+
+[node name="MusicStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=757471712]
+stream = ExtResource("1_k2wdk")
+autoplay = true
+bus = &"Music"
+
+[node name="Control" type="Control" parent="." unique_id=2010999498]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=620985838]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -64.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="musicbuscontrol" type="HBoxContainer" parent="Control/VBoxContainer" unique_id=2129282571]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Control/VBoxContainer/musicbuscontrol" unique_id=1660121486]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "music"
+
+[node name="CheckButton" type="CheckButton" parent="Control/VBoxContainer/musicbuscontrol" unique_id=817287875]
+layout_mode = 2
+button_pressed = true
+
+[node name="sfxbuscontrol" type="HBoxContainer" parent="Control/VBoxContainer" unique_id=1287314558]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+
+[node name="Label" type="Label" parent="Control/VBoxContainer/sfxbuscontrol" unique_id=839644883]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+size_flags_horizontal = 8
+text = "all sounds"
+
+[node name="sfxmutebutton" type="CheckButton" parent="Control/VBoxContainer/sfxbuscontrol" unique_id=282683316]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 4
+button_pressed = true
+
+[connection signal="toggled" from="Control/VBoxContainer/musicbuscontrol/CheckButton" to="." method="_on_check_button_toggled"]
+[connection signal="toggled" from="Control/VBoxContainer/sfxbuscontrol/sfxmutebutton" to="." method="_on_sfxmutebutton_toggled"]
+[connection signal="toggled" from="Control/VBoxContainer/sfxbuscontrol/sfxmutebutton" to="." method="_on_check_button_toggled"]

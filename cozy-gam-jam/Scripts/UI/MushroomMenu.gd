@@ -11,6 +11,7 @@ func _ready() -> void:
 
 func _on_mushroom_selected(type: String) -> void:
 	MushroomManager.set_selected_mushroom(type)
+	GlobalSfxController.playClick()
 	_update_button_highlight()
 
 func _update_button_highlight() -> void:

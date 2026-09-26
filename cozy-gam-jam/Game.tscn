@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://433gk5s3uff8" path="res://Scripts/Environment/camera.gd" id="2_sb48q"]
 [ext_resource type="Script" uid="uid://bkmgldsivmfh4" path="res://Scripts/Interactable/ground.gd" id="2_xkndl"]
 [ext_resource type="PackedScene" uid="uid://etgwuy01scde" path="res://Scenes/UI/UI_ingamebase.tscn" id="3_u44n3"]
+[ext_resource type="PackedScene" uid="uid://dgifqel72a04x" path="res://Scenes/Audio/Game_Audio.tscn" id="5_t88pq"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sb48q"]
 
@@ -59,3 +60,5 @@ shape = SubResource("BoxShape3D_6ubv3")
 
 [node name="inGameUI" parent="." unique_id=671034291 instance=ExtResource("3_u44n3")]
 mouse_filter = 2
+
+[node name="GameAudio" parent="." unique_id=911854221 instance=ExtResource("5_t88pq")]
