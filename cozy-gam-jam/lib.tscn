@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://tso2qw44y1xy"]
+
+[ext_resource type="PackedScene" uid="uid://blvc2c7ievbp6" path="res://assets/Bolet base.glb" id="1_l84o4"]
+[ext_resource type="PackedScene" uid="uid://dlq38fwbswbpc" path="res://assets/Bolet bleu.glb" id="2_rnrw8"]
+
+[node name="Node3D" type="Node3D" unique_id=1242325688]
+
+[node name="Bolet base" parent="." unique_id=689285271 instance=ExtResource("1_l84o4")]
+
+[node name="Bolet bleu" parent="." unique_id=1213221712 instance=ExtResource("2_rnrw8")]

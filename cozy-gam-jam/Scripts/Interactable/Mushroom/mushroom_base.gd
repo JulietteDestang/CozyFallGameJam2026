@@ -2,10 +2,10 @@ extends StaticBody3D
 class_name MushroomBase
 
 @export var circle_zone_scene: PackedScene
-@export var spawn_interval: float = 3.0
-@export var new_circle_radius: float = 1.0
-@export var new_circle_grow_duration: float = 100.0
-@export var max_circles: int = 5
+@export var spawn_interval: float = 1.0
+@export var new_circle_radius: float = 5.0
+@export var new_circle_grow_duration: float = 10.0
+@export var max_circles: int = 20
 
 var circles: Array = []
 

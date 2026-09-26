@@ -15,15 +15,11 @@ func _ready() -> void:
 func _on_resources_changed(resources: Dictionary) -> void:
 	var total: int = 0
 
-	for amount in resources.values():
-		total += amount
+	iron_collected = resources.get("iron", 0)
+	apple_collected = resources.get("apple", 0)
 
-	iron_collected = total
 	update_display()
-
-func add_iron(amount: int = 1) -> void:
-	iron_collected += amount
-	update_display()
+	
 
 func update_display() -> void:
 	labelIron.text = "💎 Minéraux : " + str(iron_collected)

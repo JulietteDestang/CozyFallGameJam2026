@@ -7,6 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://etgwuy01scde" path="res://Scenes/UI/UI_ingamebase.tscn" id="3_u44n3"]
 [ext_resource type="PackedScene" uid="uid://qnq57s2x5q8e" path="res://Scenes/mineral.tscn" id="4_sb48q"]
 [ext_resource type="PackedScene" uid="uid://dgifqel72a04x" path="res://Scenes/Audio/Game_Audio.tscn" id="5_t88pq"]
+[ext_resource type="PackedScene" uid="uid://clonlhtoilecn" path="res://Scenes/apple.tscn" id="8_joorw"]
+[ext_resource type="PackedScene" uid="uid://bwljk5vyi32yy" path="res://Scenes/rock.tscn" id="9_2vekm"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sb48q"]
 
@@ -68,5 +70,13 @@ mouse_filter = 2
 
 [node name="GameAudio" parent="." unique_id=911854221 instance=ExtResource("5_t88pq")]
 
-[node name="Mineral" parent="." unique_id=1916214976 instance=ExtResource("4_sb48q")]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, -1.9836731)
+[node name="Mineral" parent="." unique_id=710929953 instance=ExtResource("4_sb48q")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, -9.568127)
+
+[node name="Apple" parent="." unique_id=1916214976 instance=ExtResource("8_joorw")]
+
+[node name="Rock" parent="." unique_id=206065559 instance=ExtResource("9_2vekm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.09853244, -4.189131)
+
+[node name="Rock2" parent="." unique_id=1154975039 instance=ExtResource("9_2vekm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9026437, -0.082935095, -3.6170926)

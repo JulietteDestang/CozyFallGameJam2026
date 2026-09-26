@@ -6,6 +6,7 @@ var claimed_resources: Array[Node] = []
 signal resources_changed(resources: Dictionary)
 
 func add_resource(resource_type: String, amount: int = 1) -> void:
+	print(resource_type)
 	if not resources.has(resource_type):
 		resources[resource_type] = 0
 
