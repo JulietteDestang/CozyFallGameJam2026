@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://blvc2c7ievbp6"
-path="res://.godot/imported/Bolet base.glb-87651ed82a5a81e473c1bc9aff6d1659.scn"
+uid="uid://dlq38fwbswbpc"
+path="res://.godot/imported/Bolet bleu.glb-63fda078b4e58160d8df813c9a2b8829.scn"
 
 [deps]
 
-source_file="res://assets/Bolet base.glb"
-dest_files=["res://.godot/imported/Bolet base.glb-87651ed82a5a81e473c1bc9aff6d1659.scn"]
+source_file="res://assets/Bolet bleu.glb"
+dest_files=["res://.godot/imported/Bolet bleu.glb-63fda078b4e58160d8df813c9a2b8829.scn"]
 
 [params]
 

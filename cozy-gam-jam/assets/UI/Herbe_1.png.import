@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8vyoa3g8kejv"
-path.s3tc="res://.godot/imported/Bolet base_Bolet texture 16x16.png-7eb39053ba9df295b14f4164ba2227d7.s3tc.ctex"
+uid="uid://cyc0ftcx08vmm"
+path.s3tc="res://.godot/imported/Herbe_1.png-b51c179ca6caa32327b3b98d3bb5c71d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "2e1ec7ec0c1e6941e0d2fea9189e0ac4"
-}
 
 [deps]
 
-source_file="res://assets/Bolet base_Bolet texture 16x16.png"
-dest_files=["res://.godot/imported/Bolet base_Bolet texture 16x16.png-7eb39053ba9df295b14f4164ba2227d7.s3tc.ctex"]
+source_file="res://assets/UI/Herbe_1.png"
+dest_files=["res://.godot/imported/Herbe_1.png-b51c179ca6caa32327b3b98d3bb5c71d.s3tc.ctex"]
 
 [params]
 

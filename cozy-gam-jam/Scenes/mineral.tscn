@@ -1,24 +1,18 @@
 [gd_scene format=3 uid="uid://qnq57s2x5q8e"]
 
 [ext_resource type="Script" uid="uid://klp6taaju44y" path="res://Scripts/Interactable/Ressources/mineral.gd" id="1_lyrpc"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jwiey"]
-albedo_color = Color(0.90229875, 0.7826508, 7.70092e-07, 1)
-
-[sub_resource type="PrismMesh" id="PrismMesh_lkknu"]
+[ext_resource type="PackedScene" uid="uid://bo3purifobj03" path="res://assets/Minerai base.glb" id="2_asmqh"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_mleg5"]
-size = Vector3(1, 0.6245117, 1)
+size = Vector3(1.3625336, 1.6812744, 1.4892578)
 
 [node name="Mineral" type="StaticBody3D" unique_id=1916214976]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_lyrpc")
 
-[node name="MeshMineral" type="MeshInstance3D" parent="." unique_id=719169820]
-transform = Transform3D(0.1, 0, 0, 0, 0.065, 0, 0, 0, 0.1, 0, 0.034807205, 0)
-material_override = SubResource("StandardMaterial3D_jwiey")
-mesh = SubResource("PrismMesh_lkknu")
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=613135517]
-transform = Transform3D(0.115, 0, 0, 0, 0.115, 0, 0, 0, 0.115, 0, 0.033419967, 0)
+transform = Transform3D(0.115, 0, 0, 0, 0.115, 0, 0, 0, 0.115, -2.3686885e-05, 0.094183825, 0.0008984402)
 shape = SubResource("BoxShape3D_mleg5")
+
+[node name="Minerai base" parent="." unique_id=700994305 instance=ExtResource("2_asmqh")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)

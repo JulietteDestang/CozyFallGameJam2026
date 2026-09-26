@@ -1,22 +1,8 @@
 [gd_scene format=3 uid="uid://djc4kprbyvrqe"]
 
+[ext_resource type="Script" uid="uid://uyc3osolov0l" path="res://Scripts/Interactable/Mushroom/mushroom_blue.gd" id="1_x6vgj"]
 [ext_resource type="Script" uid="uid://4oq757a3t6rg" path="res://Scripts/Interactable/growing_radius.gd" id="2_x6vgj"]
 [ext_resource type="PackedScene" uid="uid://dlq38fwbswbpc" path="res://assets/Bolet bleu.glb" id="3_x6vgj"]
-
-[sub_resource type="GDScript" id="GDScript_ly83m"]
-script/source = "extends MushroomBase
-
-func can_be_placed_at(pos: Vector3, existing_mushrooms: Array) -> bool:
-	if PlayerRessources.get_resource(\"iron\") <= 0:
-		return false
-	for mushroom in existing_mushrooms:
-		if not is_instance_valid(mushroom):
-			continue
-		if mushroom.is_pos_in_zone(pos):
-			PlayerRessources.remove_resource(\"iron\")
-			return true
-	return false
-"
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uj3h4"]
 transparency = 1
@@ -32,7 +18,7 @@ height = 0.051513672
 radius = 0.99609375
 
 [node name="Mushroom" type="StaticBody3D" unique_id=1916214976]
-script = SubResource("GDScript_ly83m")
+script = ExtResource("1_x6vgj")
 
 [node name="RadiusIndicator" type="MeshInstance3D" parent="." unique_id=985426676]
 material_override = SubResource("StandardMaterial3D_uj3h4")

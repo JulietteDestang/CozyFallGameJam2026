@@ -1,6 +1,6 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://b0ytr53cauqhi"]
 
-[ext_resource type="Texture2D" uid="uid://b1iuc3lcw75s" path="res://assets/Bolet base_Bolet texture 16x16.png" id="1_fcj5y"]
+[ext_resource type="Texture2D" uid="uid://bf8yj3anhq3e8" path="res://assets/Bolet base _Bolet texture 16x16.png" id="1_fcj5y"]
 
 [resource]
 resource_name = "Material.001"

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://blvc2c7ievbp6"
-path="res://.godot/imported/Bolet base.glb-87651ed82a5a81e473c1bc9aff6d1659.scn"
+uid="uid://bo3purifobj03"
+path="res://.godot/imported/Minerai base.glb-a8e504ba0e7717bc0b2f4bd3bfda6b0b.scn"
 
 [deps]
 
-source_file="res://assets/Bolet base.glb"
-dest_files=["res://.godot/imported/Bolet base.glb-87651ed82a5a81e473c1bc9aff6d1659.scn"]
+source_file="res://assets/Minerai base.glb"
+dest_files=["res://.godot/imported/Minerai base.glb-a8e504ba0e7717bc0b2f4bd3bfda6b0b.scn"]
 
 [params]
 

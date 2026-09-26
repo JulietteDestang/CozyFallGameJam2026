@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://nresoubhifai"]
+
+[ext_resource type="Script" uid="uid://drjeltktws1hw" path="res://Scripts/Interactable/Mushroom/circle_zone.gd" id="1_w25mc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eh4ol"]
+albedo_color = Color(0.93333334, 0.05882353, 0.09019608, 0.9098039)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_uj3h4"]
+top_radius = 1.0
+bottom_radius = 1.0
+height = 0.001
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_274va"]
+height = 0.1
+
+[node name="CircleZone" type="Area3D" unique_id=774939362]
+script = ExtResource("1_w25mc")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=510991416]
+material_override = SubResource("StandardMaterial3D_eh4ol")
+mesh = SubResource("CylinderMesh_uj3h4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=474755261]
+shape = SubResource("CylinderShape3D_274va")

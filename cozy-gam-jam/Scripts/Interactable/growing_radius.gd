@@ -19,33 +19,53 @@ func _ready() -> void:
 
 func _start_growth_loop() -> void:
 	while current_radius < max_radius:
-		await get_tree().create_timer(interval_seconds).timeout
-		
-		current_radius = min(current_radius + growth_step, max_radius)
-		_animate_to_current_radius()
+		var next_radius: float = min(
+			current_radius + growth_step,
+			max_radius
+		)
+
+		var tween := create_tween()
+		tween.set_trans(Tween.TRANS_SINE)
+		tween.set_ease(Tween.EASE_IN_OUT)
+
+		# Animation du visuel
+		tween.parallel().tween_property(
+			radius_indicator,
+			"scale",
+			Vector3(next_radius, 1.0, next_radius),
+			interval_seconds
+		)
+
+		# Animation du collider
+		var cylinder := collision_shape.shape as CylinderShape3D
+
+		if cylinder:
+			tween.parallel().tween_method(
+				_set_collision_radius,
+				current_radius,
+				next_radius,
+				interval_seconds
+			)
+
+		await tween.finished
+
+		current_radius = next_radius
+
+
+func _set_collision_radius(radius: float) -> void:
+	var cylinder := collision_shape.shape as CylinderShape3D
+
+	if cylinder:
+		cylinder.radius = radius
 
 
 func _update_radius() -> void:
 	# Visuel
-	radius_indicator.scale = Vector3(current_radius, 1.0, current_radius)
-
-	# Collision
-	var cylinder := collision_shape.shape as CylinderShape3D
-	if cylinder:
-		cylinder.radius = current_radius
-
-
-func _animate_to_current_radius() -> void:
-	var tween := create_tween()
-	tween.set_trans(Tween.TRANS_SINE)
-	tween.set_ease(Tween.EASE_OUT)
-
-	tween.tween_property(
-		radius_indicator,
-		"scale",
-		Vector3(current_radius, 1.0, current_radius),
-		0.1
+	radius_indicator.scale = Vector3(
+		current_radius,
+		1.0,
+		current_radius
 	)
 
-	# On met aussi le collider à jour
-	_update_radius()
+	# Collision
+	_set_collision_radius(current_radius)

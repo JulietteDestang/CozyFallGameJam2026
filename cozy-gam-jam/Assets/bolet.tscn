@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://c5itbmil3d8ue"]
 
-[ext_resource type="PackedScene" uid="uid://eqlt223hn3qg" path="res://Assets/Bolet base.glb" id="1_20qnq"]
+[ext_resource type="PackedScene" path="res://Assets/Bolet base.glb" id="1_20qnq"]
 
 [node name="Bolet base" unique_id=545094305 instance=ExtResource("1_20qnq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4115775, 0)
 
-[node name="Cylinder" parent="." index="0" unique_id=1250394277]
+[node name="Cylinder" parent="." index="0" unique_id=1629098180]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)

@@ -5,6 +5,8 @@
 [ext_resource type="Texture2D" uid="uid://dm7hfmk76rcdy" path="res://assets/UI/sprite_basemush.jpg" id="2_ogpxo"]
 [ext_resource type="Texture2D" uid="uid://skjt6ki4ayqb" path="res://assets/UI/sprite_redmush.jpg" id="3_we6bn"]
 [ext_resource type="Texture2D" uid="uid://jmsdt0ug8psl" path="res://assets/UI/sprite_bluemush.jpg" id="4_s6gc6"]
+[ext_resource type="Script" uid="uid://r7vcu8cp2dhu" path="res://Scripts/UI/ResourcesPanel.gd" id="3_sr74b"]
+
 
 [node name="inGameUI" type="Control" unique_id=671034291]
 layout_mode = 3
@@ -148,3 +150,35 @@ theme_override_constants/margin_bottom = 30
 layout_mode = 2
 fill_mode = 4
 texture_under = ExtResource("1_ga52n")
+
+[node name="Panel" type="Panel" parent="." unique_id=2057512639]
+layout_mode = 0
+offset_left = 900.0
+offset_top = 20.0
+offset_right = 1100.0
+offset_bottom = 140.0
+script = ExtResource("3_sr74b")
+
+[node name="Iron" type="Label" parent="Panel" unique_id=1006037315]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 10.0
+offset_right = 60.0
+offset_bottom = 33.0
+text = "Minéraux"
+
+[node name="Label2" type="Label" parent="Panel" unique_id=876285513]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 45.0
+offset_right = 94.0
+offset_bottom = 68.0
+text = "Minéraux"
+
+[node name="Label3" type="Label" parent="Panel" unique_id=37877500]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 80.0
+offset_right = 94.0
+offset_bottom = 103.0
+text = "Minéraux"

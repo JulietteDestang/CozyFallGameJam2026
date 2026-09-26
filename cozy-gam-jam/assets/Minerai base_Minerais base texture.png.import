@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8vyoa3g8kejv"
-path.s3tc="res://.godot/imported/Bolet base_Bolet texture 16x16.png-7eb39053ba9df295b14f4164ba2227d7.s3tc.ctex"
+uid="uid://bykdkom3c4o60"
+path.s3tc="res://.godot/imported/Minerai base_Minerais base texture.png-d9cf0531e6bf2f733d3506c93841cf16.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "2e1ec7ec0c1e6941e0d2fea9189e0ac4"
+"md5": "d7197cc1242db0b6fad261fbf0077a07"
 }
 
 [deps]
 
-source_file="res://assets/Bolet base_Bolet texture 16x16.png"
-dest_files=["res://.godot/imported/Bolet base_Bolet texture 16x16.png-7eb39053ba9df295b14f4164ba2227d7.s3tc.ctex"]
+source_file="res://assets/Minerai base_Minerais base texture.png"
+dest_files=["res://.godot/imported/Minerai base_Minerais base texture.png-d9cf0531e6bf2f733d3506c93841cf16.s3tc.ctex"]
 
 [params]
 
