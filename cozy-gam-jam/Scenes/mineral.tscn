@@ -4,14 +4,14 @@
 [ext_resource type="PackedScene" uid="uid://bo3purifobj03" path="res://assets/Minerai base.glb" id="2_asmqh"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_mleg5"]
-size = Vector3(1.3625336, 1.6812744, 1.4892578)
+size = Vector3(2.2811852, 1.6812744, 2.0281372)
 
 [node name="Mineral" type="StaticBody3D" unique_id=1916214976]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_lyrpc")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=613135517]
-transform = Transform3D(0.115, 0, 0, 0, 0.115, 0, 0, 0, 0.115, -2.3686885e-05, 0.094183825, 0.0008984402)
+transform = Transform3D(0.115, 0, 0, 0, 0.115, 0, 0, 0, 0.115, 0.014122975, 0.094183825, 0.005920565)
 shape = SubResource("BoxShape3D_mleg5")
 
 [node name="Minerai base" parent="." unique_id=700994305 instance=ExtResource("2_asmqh")]

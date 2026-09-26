@@ -1,49 +1,14 @@
 [gd_scene format=3 uid="uid://djc4kprbyvrqe"]
 
-[ext_resource type="Script" uid="uid://4oq757a3t6rg" path="res://Scripts/Interactable/growing_radius.gd" id="2_x6vgj"]
-[ext_resource type="PackedScene" uid="uid://dlq38fwbswbpc" path="res://assets/Bolet bleu.glb" id="3_x6vgj"]
-
-[sub_resource type="GDScript" id="GDScript_ly83m"]
-script/source = "extends MushroomBase
-
-func can_be_placed_at(pos: Vector3, existing_mushrooms: Array) -> bool:
-	if PlayerRessources.get_resource(\"iron\") <= 0:
-		return false
-	for mushroom in existing_mushrooms:
-		if not is_instance_valid(mushroom):
-			continue
-		if mushroom.is_pos_in_zone(pos):
-			PlayerRessources.remove_resource(\"iron\")
-			return true
-	return false
-"
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uj3h4"]
-transparency = 1
-albedo_color = Color(1, 0, 0, 0.7294118)
-
-[sub_resource type="CylinderMesh" id="CylinderMesh_274va"]
-top_radius = 1.0
-bottom_radius = 1.0
-height = 0.001
-
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_274va"]
-height = 0.051513672
-radius = 0.99609375
+[ext_resource type="Script" uid="uid://bynay5v81foot" path="res://Scripts/Interactable/Mushroom/mushroom_blue.gd" id="1_x6vgj"]
+[ext_resource type="PackedScene" uid="uid://nresoubhifai" path="res://Scripts/Interactable/Mushroom/CircleZone.tscn" id="2_wacsk"]
+[ext_resource type="PackedScene" uid="uid://dlq38fwbswbpc" path="res://assets/Bolet bleu.glb" id="3_wacsk"]
 
 [node name="Mushroom" type="StaticBody3D" unique_id=1916214976]
-script = SubResource("GDScript_ly83m")
+script = ExtResource("1_x6vgj")
+circle_zone_scene = ExtResource("2_wacsk")
 
-[node name="RadiusIndicator" type="MeshInstance3D" parent="." unique_id=985426676]
-material_override = SubResource("StandardMaterial3D_uj3h4")
-mesh = SubResource("CylinderMesh_274va")
+[node name="Bolet bleu" parent="." unique_id=1213221712 instance=ExtResource("3_wacsk")]
+transform = Transform3D(0.2, 0, 0, 0, 0.17320508, 0.1, 0, -0.1, 0.17320508, 0, 0, 0)
 
-[node name="GrowingRadius" type="Area3D" parent="." unique_id=175929689]
-script = ExtResource("2_x6vgj")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="GrowingRadius" unique_id=1070080022]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.005004883, 0)
-shape = SubResource("CylinderShape3D_274va")
-
-[node name="Bolet bleu" parent="." unique_id=1213221712 instance=ExtResource("3_x6vgj")]
-transform = Transform3D(0.1, 0, 0, 0, 0.08660254, 0.05, 0, -0.05, 0.08660254, 0, 0, 0)
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1536994645]

@@ -86,7 +86,7 @@ func _spawn_circle_at(pos: Vector3) -> void:
 		return
 
 	var circle = circle_zone_scene.instantiate()
-	get_tree().current_scene.add_child(circle)
+	add_child(circle)
 
 	circle.global_position = pos
 	circle.target_radius = new_circle_radius

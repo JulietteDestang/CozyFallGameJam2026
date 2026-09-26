@@ -25,7 +25,7 @@ func spawn_mushroom(type: String, pos: Vector3, parent: Node) -> void:
 	var mushroom = mushroom_scenes[type].instantiate()
 
 	parent.add_child(mushroom)
-	mushroom.global_position = pos
+	mushroom.global_position = Vector3(pos.x, 0, pos.z)
 	mushroom.initialize()
 
 	if not mushroom.can_be_placed_at(pos, active_mushrooms):

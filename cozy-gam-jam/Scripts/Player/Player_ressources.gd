@@ -16,6 +16,7 @@ func remove_resource(resource_type: String, amount: int = 1):
 	if resources[resource_type] >= 1:
 		resources[resource_type] -=1
 	resources_changed.emit(resources)
+	
 func claim_resource(
 	resource: Node,
 	resource_type: String,
