@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://dgifqel72a04x"]
 
 [ext_resource type="Script" uid="uid://da6wmlh8iiygt" path="res://Scripts/Audio/Global_Audio.gd" id="1_0vlkh"]
-[ext_resource type="AudioStream" uid="uid://bm76r0rejwjeb" path="res://assets/Audio/cosychampi2.mp3" id="1_k2wdk"]
+[ext_resource type="AudioStream" uid="uid://cb40jqp834je3" path="res://assets/Audio/champi theme3.wav" id="2_0vlkh"]
 
 [node name="GameAudio" type="Node" unique_id=911854221]
 script = ExtResource("1_0vlkh")
 
 [node name="MusicStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=757471712]
-stream = ExtResource("1_k2wdk")
+stream = ExtResource("2_0vlkh")
 autoplay = true
 bus = &"Music"
 

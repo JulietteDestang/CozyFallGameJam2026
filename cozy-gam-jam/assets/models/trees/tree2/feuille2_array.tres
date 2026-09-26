@@ -1,0 +1,43 @@
+[gd_resource type="ArrayMesh" format=4 uid="uid://cncl0sqmrjal3"]
+
+[ext_resource type="Texture2D" uid="uid://d72d5xes3qh6" path="res://assets/models/trees/tree2/Feuille2_Test_tiles2.png" id="1_bo6sp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cxdht"]
+resource_name = "Material.042"
+cull_mode = 2
+albedo_texture = ExtResource("1_bo6sp")
+metallic = 1.0
+texture_filter = 2
+metadata/_gltf_primary_texture_coord = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pl3vd"]
+_surfaces = [{
+"aabb": AABB(-1.0057684, -5.7104696e-08, -2.8944364, 2, 1e-05, 3.1747694),
+"format": 34896613377,
+"index_count": 30,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAAAAUABAAGAAAABgADAAAABgAHAAMABwAIAAMABwAJAAgACgAHAAYACgALAAcA"),
+"name": "Material.042",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("UaoAABDSAAD//wAAFi4AAP//AAAQ0gAAUaoAABYuAADkVwAA//8AAFGqAAD//wAA5FcAABDSAADkVwAAFi4AAFGqAAAAAAAA5FcAAAAAAAAAAAAAENIAAAAAAAAWLgAA")
+}]
+blend_shape_mode = 0
+
+[resource]
+resource_name = "Feuille2_Plane_037"
+_surfaces = [{
+"aabb": AABB(-1.0057684, -5.7104696e-08, -2.8944364, 2, 1e-05, 3.1747694),
+"attribute_data": PackedByteArray("kpEgKymTdiYpkyArkpF2JgyQvyySkb8sDJAgKwyQdiaSkeckDJDnJHOOICtzjnYm"),
+"format": 34896613399,
+"index_count": 30,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAAAAUABAAGAAAABgADAAAABgAHAAMABwAIAAMABwAJAAgACgAHAAYACgALAAcA"),
+"material": SubResource("StandardMaterial3D_cxdht"),
+"name": "Material.042",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("UaoAABDS/7///wAAFi7/v///AAAQ0v+/UaoAABYu/7/kVwAA////v1GqAAD///+/5FcAABDS/7/kVwAAFi7/v1GqAAAAAP+/5FcAAAAA/78AAAAAENL/vwAAAAAWLv+/////f////3////9/////f////3////9/////f////3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_pl3vd")

@@ -32,7 +32,7 @@ uv1_scale = Vector3(50, 50, 50)
 [sub_resource type="BoxShape3D" id="BoxShape3D_6ubv3"]
 size = Vector3(1.9927368, 0.024841309, 1.991333)
 
-[node name="Game" type="Node3D" unique_id=1219061469]
+[node name="Game2" type="Node3D" unique_id=1219061469]
 script = ExtResource("1_wbfu4")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=891392610]
@@ -49,6 +49,7 @@ transform = Transform3D(1, 0, 0, 0, 0.57357645, 0.81915206, 0, -0.81915206, 0.57
 fov = 69.0
 size = 15.0
 script = ExtResource("2_sb48q")
+pan_speed = 0.015
 
 [node name="Ground" type="StaticBody3D" parent="." unique_id=1875396292]
 transform = Transform3D(21.28, 0, 0, 0, 21.28, 0, 0, 0, 21.28, 0, 0, -8.521063)

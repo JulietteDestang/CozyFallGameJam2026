@@ -3,10 +3,12 @@
 [ext_resource type="Script" uid="uid://b7mf85ic7o80r" path="res://Scripts/UI/MushroomMenu.gd" id="1_1pvvf"]
 [ext_resource type="Texture2D" uid="uid://cpwvs2afny14q" path="res://assets/UI/circle_brown_carvedout.png" id="1_ga52n"]
 [ext_resource type="Texture2D" uid="uid://dm7hfmk76rcdy" path="res://assets/UI/sprite_basemush.jpg" id="2_ogpxo"]
+[ext_resource type="Script" uid="uid://r7vcu8cp2dhu" path="res://Scripts/UI/ResourcesPanel.gd" id="3_sr74b"]
 [ext_resource type="Texture2D" uid="uid://skjt6ki4ayqb" path="res://assets/UI/sprite_redmush.jpg" id="3_we6bn"]
 [ext_resource type="Texture2D" uid="uid://jmsdt0ug8psl" path="res://assets/UI/sprite_bluemush.jpg" id="4_s6gc6"]
-[ext_resource type="Script" uid="uid://r7vcu8cp2dhu" path="res://Scripts/UI/ResourcesPanel.gd" id="3_sr74b"]
-
+[ext_resource type="Texture2D" uid="uid://br8i65mmgfgy3" path="res://assets/UI/pierre.png" id="6_nnlxq"]
+[ext_resource type="Texture2D" uid="uid://b7iwuprwpa2ro" path="res://assets/UI/Eau.png" id="7_b43ov"]
+[ext_resource type="Texture2D" uid="uid://chrbrwvmgofl5" path="res://assets/UI/pomme.png" id="8_lvwyx"]
 
 [node name="inGameUI" type="Control" unique_id=671034291]
 layout_mode = 3
@@ -151,34 +153,70 @@ layout_mode = 2
 fill_mode = 4
 texture_under = ExtResource("1_ga52n")
 
-[node name="Panel" type="Panel" parent="." unique_id=2057512639]
-layout_mode = 0
-offset_left = 900.0
-offset_top = 20.0
-offset_right = 1100.0
-offset_bottom = 140.0
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=762181626]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -244.0
+grow_horizontal = 0
 script = ExtResource("3_sr74b")
 
-[node name="Iron" type="Label" parent="Panel" unique_id=1006037315]
-layout_mode = 0
-offset_left = 20.0
-offset_top = 10.0
-offset_right = 60.0
-offset_bottom = 33.0
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer" unique_id=649211932]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/VBoxContainer2" unique_id=454154139]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="HBoxContainer/VBoxContainer2/HBoxContainer" unique_id=105022552]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/VBoxContainer2/HBoxContainer/PanelContainer" unique_id=1929818257]
+custom_maximum_size = Vector2(50, 60)
+layout_mode = 2
+texture = ExtResource("6_nnlxq")
+
+[node name="Iron" type="Label" parent="HBoxContainer/VBoxContainer2/HBoxContainer" unique_id=1006037315]
+layout_mode = 2
 text = "Minéraux"
 
-[node name="Label2" type="Label" parent="Panel" unique_id=876285513]
-layout_mode = 0
-offset_left = 20.0
-offset_top = 45.0
-offset_right = 94.0
-offset_bottom = 68.0
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/VBoxContainer2" unique_id=586450274]
+layout_mode = 2
+
+[node name="PanelContainer2" type="PanelContainer" parent="HBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=1497805796]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/VBoxContainer2/HBoxContainer2/PanelContainer2" unique_id=472847521]
+custom_maximum_size = Vector2(50, 60)
+layout_mode = 2
+texture = ExtResource("7_b43ov")
+
+[node name="Label2" type="Label" parent="HBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=876285513]
+layout_mode = 2
 text = "Minéraux"
 
-[node name="Label3" type="Label" parent="Panel" unique_id=37877500]
-layout_mode = 0
-offset_left = 20.0
-offset_top = 80.0
-offset_right = 94.0
-offset_bottom = 103.0
+[node name="HBoxContainer3" type="HBoxContainer" parent="HBoxContainer/VBoxContainer2" unique_id=323600435]
+layout_mode = 2
+
+[node name="PanelContainer3" type="PanelContainer" parent="HBoxContainer/VBoxContainer2/HBoxContainer3" unique_id=613856969]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/VBoxContainer2/HBoxContainer3/PanelContainer3" unique_id=1128000773]
+custom_maximum_size = Vector2(50, 60)
+layout_mode = 2
+texture = ExtResource("8_lvwyx")
+
+[node name="Label3" type="Label" parent="HBoxContainer/VBoxContainer2/HBoxContainer3" unique_id=37877500]
+layout_mode = 2
 text = "Minéraux"
+
+[node name="MarginContainer2" type="MarginContainer" parent="HBoxContainer" unique_id=1580881473]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 116

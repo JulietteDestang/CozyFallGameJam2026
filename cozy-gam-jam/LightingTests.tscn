@@ -1,0 +1,164 @@
+[gd_scene format=3 uid="uid://7vcu4dnebtp7"]
+
+[ext_resource type="Script" uid="uid://b436jf8byt3u4" path="res://Scripts/Environment/click_handler.gd" id="1_3a1fy"]
+[ext_resource type="Script" uid="uid://433gk5s3uff8" path="res://Scripts/Environment/camera.gd" id="2_oam6y"]
+[ext_resource type="Texture2D" uid="uid://b3rwncd6jn7ew" path="res://assets/lighting/autumn_forest_04_4k.hdr" id="2_odm8n"]
+[ext_resource type="Script" uid="uid://bkmgldsivmfh4" path="res://Scripts/Interactable/ground.gd" id="3_rfd48"]
+[ext_resource type="Texture2D" uid="uid://b8vyoa3g8kejv" path="res://assets/Bolet base_Bolet texture 16x16.png" id="4_rfd48"]
+[ext_resource type="Material" uid="uid://b0ytr53cauqhi" path="res://assets/Material.001.tres" id="7_odm8n"]
+[ext_resource type="PackedScene" uid="uid://csr0x2vr2npv0" path="res://assets/models/trees/tree1/tree_1.tscn" id="7_rfd48"]
+[ext_resource type="PackedScene" uid="uid://c2o8t6jstn0wc" path="res://assets/models/trees/tree3/tree_3.tscn" id="8_jin2m"]
+[ext_resource type="PackedScene" uid="uid://bd8bt0dmtw3md" path="res://assets/models/trees/tree2/tree_2.tscn" id="9_hsny6"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_23l3u"]
+panorama = ExtResource("2_odm8n")
+
+[sub_resource type="Sky" id="Sky_u6spt"]
+sky_material = SubResource("PanoramaSkyMaterial_23l3u")
+
+[sub_resource type="Environment" id="Environment_xkndl"]
+background_mode = 2
+sky = SubResource("Sky_u6spt")
+ambient_light_source = 3
+ambient_light_color = Color(1, 1, 1, 1)
+reflected_light_source = 2
+tonemap_exposure = 1.85
+glow_enabled = true
+glow_intensity = 0.27
+glow_strength = 0.96
+glow_bloom = 0.75
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.003
+volumetric_fog_emission = Color(0.29803923, 0.28235295, 0, 1)
+volumetric_fog_emission_energy = 1.55
+volumetric_fog_anisotropy = 0.56
+volumetric_fog_length = 465.1
+volumetric_fog_detail_spread = 0.93303305
+volumetric_fog_ambient_inject = 0.15
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_oam6y"]
+exposure_multiplier = 0.882
+dof_blur_far_enabled = true
+dof_blur_far_distance = 30.0
+dof_blur_far_transition = 332.72
+dof_blur_near_enabled = true
+dof_blur_near_distance = 3.0
+dof_blur_near_transition = -1.0
+dof_blur_amount = 0.21
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jin2m"]
+albedo_texture = ExtResource("4_rfd48")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_6ubv3"]
+
+[node name="Game" type="Node3D" unique_id=1219061469]
+script = ExtResource("1_3a1fy")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=891392610]
+environment = SubResource("Environment_xkndl")
+camera_attributes = SubResource("CameraAttributesPractical_oam6y")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1789698307]
+transform = Transform3D(0.70710677, 0.5043442, -0.4956177, 0, 0.70090926, 0.71325046, 0.70710677, -0.5043442, 0.4956177, 0, 3.3491845, 0)
+light_color = Color(0.93871576, 0.81462985, 0.69761086, 1)
+light_energy = 1.2
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=788564181]
+transform = Transform3D(1, 0, 0, 0, 0.91425395, 0.4051416, 0, -0.4051416, 0.91425395, -9.576921, 3.2091541, 41.42485)
+fov = 45.5
+size = 15.0
+near = 0.008
+script = ExtResource("2_oam6y")
+
+[node name="Ground" type="StaticBody3D" parent="." unique_id=1875396292]
+transform = Transform3D(21.28, 0, 0, 0, 21.28, 0, 0, 0, 21.28, 0, 0, -8.521063)
+script = ExtResource("3_rfd48")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=1948101880]
+transform = Transform3D(14.801829, 0, 0, 0, 1.1270337, 0, 0, 0, 24.920706, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_jin2m")
+mesh = SubResource("PlaneMesh_6ubv3")
+
+[node name="Map" type="Node3D" parent="." unique_id=1842958053]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=1503736145]
+transform = Transform3D(3.272952, 0, 0, 0, 3.1023095, -0.61831146, 0, 0.5619297, 3.413583, -4.1565766, 0, -18.049728)
+material_override = ExtResource("7_odm8n")
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="." unique_id=623963110]
+transform = Transform3D(10.7122135, 0, 0, 0, 9.8911085, -1.1932664, 0, 0.9855685, 11.975555, 6.333604, 5.2165604, -17.00098)
+material_override = ExtResource("7_odm8n")
+radius = 0.23
+height = 0.955
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="." unique_id=861320484]
+transform = Transform3D(10.7122135, 0, 0, 0, 9.8911085, -1.1932664, 0, 0.9855685, 11.975555, 6.333604, 5.2165604, 3.3868446)
+material_override = ExtResource("7_odm8n")
+radius = 0.23
+height = 0.955
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="." unique_id=45804292]
+transform = Transform3D(10.7122135, 0, 0, 0, 9.8911085, -1.1932664, 0, 0.9855685, 11.975555, 6.333604, 5.2165604, 29.95734)
+material_override = ExtResource("7_odm8n")
+radius = 0.23
+height = 0.955
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="." unique_id=1322263524]
+transform = Transform3D(10.7122135, 0, 0, 0, 9.8911085, -1.1932664, 0, 0.9855685, 11.975555, 6.333604, 5.2165604, 62.04268)
+material_override = ExtResource("7_odm8n")
+radius = 0.23
+height = 0.955
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="." unique_id=679020844]
+transform = Transform3D(10.7122135, 0, 0, 0, 9.8911085, -1.1932664, 0, 0.9855685, 11.975555, -18.27835, 5.2165604, 112.52478)
+material_override = ExtResource("7_odm8n")
+radius = 0.23
+height = 0.955
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="." unique_id=1800756418]
+transform = Transform3D(10.7122135, 0, 0, 0, 9.8911085, -1.1932664, 0, 0.9855685, 11.975555, -38.631523, 5.2165604, 112.52478)
+material_override = ExtResource("7_odm8n")
+radius = 0.23
+height = 0.955
+
+[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="." unique_id=1786841290]
+transform = Transform3D(10.7122135, 0, 0, 0, 9.8911085, -1.1932664, 0, 0.9855685, 11.975555, -59.68573, 5.2165604, 112.52478)
+material_override = ExtResource("7_odm8n")
+radius = 0.23
+height = 0.955
+
+[node name="CSGCylinder3D9" type="CSGCylinder3D" parent="." unique_id=246866126]
+transform = Transform3D(10.7122135, 0, 0, 0, 9.8911085, -1.1932664, 0, 0.9855685, 11.975555, -80.174515, 5.2165604, 112.52478)
+material_override = ExtResource("7_odm8n")
+radius = 0.23
+height = 0.955
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=569180335]
+transform = Transform3D(1, 0, 0, 0, -0.26310825, 0.9647663, 0, -0.9647663, -0.26310825, -2.9657373, 14.014064, -18.773884)
+light_color = Color(0.78062373, 0.6389017, 0, 1)
+light_energy = 7.332
+light_indirect_energy = 1.912
+light_volumetric_fog_energy = 15.283
+light_specular = 3.265
+spot_range = 18.927
+spot_attenuation = 0.31
+spot_angle = 11.881555
+
+[node name="Node3D" parent="." unique_id=1698937182 instance=ExtResource("7_rfd48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.930609, -1.1920929e-07, 33.490017)
+
+[node name="Node3D2" parent="." unique_id=1772138145 instance=ExtResource("7_rfd48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.3558397, 0, 34.443733)
+
+[node name="Node3D3" parent="." unique_id=261972853 instance=ExtResource("7_rfd48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.236128, -1.1920929e-07, 34.301907)
+
+[node name="Node3D4" parent="." unique_id=2034933191 instance=ExtResource("7_rfd48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.547022, 0, 31.269815)
+
+[node name="Node3D5" parent="." unique_id=1112768575 instance=ExtResource("8_jin2m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.73866, 0, 37.085377)
+
+[node name="Node3D6" parent="." unique_id=924141651 instance=ExtResource("9_hsny6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.2173038, 0, 37.922943)

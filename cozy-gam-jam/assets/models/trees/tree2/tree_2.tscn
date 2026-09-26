@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://bd8bt0dmtw3md"]
+
+[ext_resource type="PackedScene" uid="uid://dp05s8g2s2d66" path="res://assets/models/trees/tree2/Arbre var2.glb" id="1_4xtxx"]
+[ext_resource type="Texture2D" uid="uid://r7knd8rufyg6" path="res://assets/models/trees/tree1/feuille1.png" id="2_f3yxw"]
+[ext_resource type="Texture2D" uid="uid://jrentkeftu0j" path="res://assets/models/trees/tree1/Feuille1_Test_tiles2.png" id="3_w8pxh"]
+[ext_resource type="ArrayMesh" uid="uid://cncl0sqmrjal3" path="res://assets/models/trees/tree2/feuille2_array.tres" id="4_4xtxx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dusgn"]
+albedo_texture = ExtResource("2_f3yxw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a6k4c"]
+albedo_texture = ExtResource("3_w8pxh")
+
+[sub_resource type="Curve" id="Curve_qs5ya"]
+_limits = [-360.0, 360.0, 0.0, 1.0]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.49204543, 355.10205), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_kb1ge"]
+curve = SubResource("Curve_qs5ya")
+
+[sub_resource type="Curve" id="Curve_0x7vj"]
+_limits = [-200.0, 200.0, 0.0, 1.0]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.5056818, 78.23129), 0.0, 0.0, 0, 0, Vector2(0.9988637, -106.80272), 85.689926, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_olysl"]
+curve = SubResource("Curve_0x7vj")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_odm8n"]
+particle_flag_rotate_y = true
+emission_shape = 3
+emission_box_extents = Vector3(0.755, 0.325, 0.42)
+angle_min = -393.19998
+angle_max = 488.30002
+angle_curve = SubResource("CurveTexture_kb1ge")
+use_rotation_3d = true
+rotation_3d_min = Vector3(90, 0, 0)
+rotation_3d_max = Vector3(90, 0, 0)
+linear_accel_curve = SubResource("CurveTexture_olysl")
+use_scale_3d = true
+scale_3d_min = Vector3(0.05, 0.05, 0.05)
+scale_3d_max = Vector3(0.09, 0.09, 0.09)
+
+[node name="Node3D" type="Node3D" unique_id=1698937182]
+
+[node name="Arbre var2" parent="." unique_id=1935670613 instance=ExtResource("1_4xtxx")]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="Arbre var2" unique_id=936166852]
+transform = Transform3D(0.07011592, -0.99598664, 0.055626888, 0.07923737, 0.061148766, 0.9949785, -0.99438685, -0.065356106, 0.08320683, 0.042962432, 2.4678202, 0.64536715)
+material_override = SubResource("StandardMaterial3D_dusgn")
+material_overlay = SubResource("StandardMaterial3D_a6k4c")
+transparency = 0.3
+amount = 10
+amount_ratio = 0.6
+lifetime = 3.0
+speed_scale = 0.4
+explosiveness = 0.1
+randomness = 0.7
+process_material = SubResource("ParticleProcessMaterial_odm8n")
+draw_pass_1 = ExtResource("4_4xtxx")
