@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://coesccdixil1u"
-path.s3tc="res://.godot/imported/Tile_terre_1_Test_tiles2.png-52da52d39ec5b754772c2a1d5b2ddc3c.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tile_terre_1_Test_tiles2.png-25a6edda2080842b57014e5e75aaada3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/Tile_terre_1_Test_tiles2.png"
-dest_files=["res://.godot/imported/Tile_terre_1_Test_tiles2.png-52da52d39ec5b754772c2a1d5b2ddc3c.s3tc.ctex"]
+source_file="res://assets/Assets_TileMap/Tile_terre_1_Test_tiles2.png"
+dest_files=["res://.godot/imported/Tile_terre_1_Test_tiles2.png-25a6edda2080842b57014e5e75aaada3.s3tc.ctex"]
 
 [params]
 

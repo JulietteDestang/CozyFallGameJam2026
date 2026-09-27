@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bo3purifobj03"
-path="res://.godot/imported/Minerai base.glb-499472df57f58f72e3e5c832eedc9fd1.scn"
+path="res://.godot/imported/Minerai base.glb-a8e504ba0e7717bc0b2f4bd3bfda6b0b.scn"
 
 [deps]
 
-source_file="res://Assets/Minerai base.glb"
-dest_files=["res://.godot/imported/Minerai base.glb-499472df57f58f72e3e5c832eedc9fd1.scn"]
+source_file="res://assets/Minerai base.glb"
+dest_files=["res://.godot/imported/Minerai base.glb-a8e504ba0e7717bc0b2f4bd3bfda6b0b.scn"]
 
 [params]
 

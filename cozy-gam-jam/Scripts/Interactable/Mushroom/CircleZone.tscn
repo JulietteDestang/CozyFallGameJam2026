@@ -1,9 +1,15 @@
 [gd_scene format=3 uid="uid://nresoubhifai"]
 
 [ext_resource type="Script" uid="uid://drjeltktws1hw" path="res://Scripts/Interactable/Mushroom/circle_zone.gd" id="1_w25mc"]
+[ext_resource type="Texture2D" uid="uid://bwcej218vkpi3" path="res://assets/mushroomtexturebig.png" id="2_00uvc"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eh4ol"]
-albedo_color = Color(0.93333334, 0.05882353, 0.09019608, 0.9098039)
+transparency = 1
+blend_mode = 1
+shading_mode = 0
+diffuse_mode = 1
+albedo_color = Color(0.66677094, 0.5414733, 0.2992161, 1)
+albedo_texture = ExtResource("2_00uvc")
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_uj3h4"]
 top_radius = 1.0

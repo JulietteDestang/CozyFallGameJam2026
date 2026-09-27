@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b4wx36hwclm1d"
-path="res://.godot/imported/Tiles_Herbes_Neutre_3.glb-87ca2d9bd0d3f0023488aaa1f8ae9c2c.scn"
+path="res://.godot/imported/Tiles_Herbes_Neutre_3.glb-95630a5efe68bf3929ce23973702c25c.scn"
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/Tiles_Herbes_Neutre_3.glb"
-dest_files=["res://.godot/imported/Tiles_Herbes_Neutre_3.glb-87ca2d9bd0d3f0023488aaa1f8ae9c2c.scn"]
+source_file="res://assets/Assets_TileMap/Tiles_Herbes_Neutre_3.glb"
+dest_files=["res://.godot/imported/Tiles_Herbes_Neutre_3.glb-95630a5efe68bf3929ce23973702c25c.scn"]
 
 [params]
 

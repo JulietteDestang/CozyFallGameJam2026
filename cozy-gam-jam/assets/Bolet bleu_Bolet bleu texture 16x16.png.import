@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cagy37gqhml46"
-path.s3tc="res://.godot/imported/Bolet bleu_Bolet bleu texture 16x16.png-bf5dfcaad4f3dd64e25e83c97ccf382a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Bolet bleu_Bolet bleu texture 16x16.png-d494c41cc8b02a26d110d95457614a0e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/Bolet bleu_Bolet bleu texture 16x16.png"
-dest_files=["res://.godot/imported/Bolet bleu_Bolet bleu texture 16x16.png-bf5dfcaad4f3dd64e25e83c97ccf382a.s3tc.ctex"]
+source_file="res://assets/Bolet bleu_Bolet bleu texture 16x16.png"
+dest_files=["res://.godot/imported/Bolet bleu_Bolet bleu texture 16x16.png-d494c41cc8b02a26d110d95457614a0e.s3tc.ctex"]
 
 [params]
 

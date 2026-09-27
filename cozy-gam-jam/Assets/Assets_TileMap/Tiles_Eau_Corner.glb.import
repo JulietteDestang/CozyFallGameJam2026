@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://60cvop38bn05"
-path="res://.godot/imported/Tiles_Eau_Corner.glb-57166335d1ac2656b92abfe11d909382.scn"
+path="res://.godot/imported/Tiles_Eau_Corner.glb-ebf7c9cc0820dac90ad7737390ebf78c.scn"
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/Tiles_Eau_Corner.glb"
-dest_files=["res://.godot/imported/Tiles_Eau_Corner.glb-57166335d1ac2656b92abfe11d909382.scn"]
+source_file="res://assets/Assets_TileMap/Tiles_Eau_Corner.glb"
+dest_files=["res://.godot/imported/Tiles_Eau_Corner.glb-ebf7c9cc0820dac90ad7737390ebf78c.scn"]
 
 [params]
 

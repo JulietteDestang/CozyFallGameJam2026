@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://drld6istqfuvn"
-path="res://.godot/imported/Tile_terre_1.glb-f6051ac4ff82b009f59333b6f3b65e9f.scn"
+path="res://.godot/imported/Tile_terre_1.glb-3bf7b7257d8f301bc82bb29347ba8390.scn"
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/Tile_terre_1.glb"
-dest_files=["res://.godot/imported/Tile_terre_1.glb-f6051ac4ff82b009f59333b6f3b65e9f.scn"]
+source_file="res://assets/Assets_TileMap/Tile_terre_1.glb"
+dest_files=["res://.godot/imported/Tile_terre_1.glb-3bf7b7257d8f301bc82bb29347ba8390.scn"]
 
 [params]
 
@@ -43,7 +43,7 @@ _subresources={
 "materials": {
 "Material.002": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/Assets_TileMap/Material.002.tres",
+"use_external/fallback_path": "res://assets/Assets_TileMap/Material.002.tres",
 "use_external/path": "uid://bi37s3h47b6nk"
 }
 }

@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://bm76r0rejwjeb"
-path="res://.godot/imported/cosychampi2.mp3-1c77997d34d75971508ed873ff6c2fd3.mp3str"
+path="res://.godot/imported/cosychampi2.mp3-206b3d912ab26e0c5748d3b392fb7e2b.mp3str"
 
 [deps]
 
-source_file="res://Assets/Audio/cosychampi2.mp3"
-dest_files=["res://.godot/imported/cosychampi2.mp3-1c77997d34d75971508ed873ff6c2fd3.mp3str"]
+source_file="res://assets/Audio/cosychampi2.mp3"
+dest_files=["res://.godot/imported/cosychampi2.mp3-206b3d912ab26e0c5748d3b392fb7e2b.mp3str"]
 
 [params]
 

@@ -22,6 +22,6 @@ func _on_resources_changed(resources: Dictionary) -> void:
 	
 
 func update_display() -> void:
-	labelIron.text = "Minéraux : " + str(iron_collected)
-	labelWater.text = "Water : " + str(water_collected)
-	labelApple.text = "Apple : " + str(apple_collected)
+	labelIron.text = str(iron_collected)
+	labelWater.text = str(water_collected)
+	labelApple.text = str(apple_collected)

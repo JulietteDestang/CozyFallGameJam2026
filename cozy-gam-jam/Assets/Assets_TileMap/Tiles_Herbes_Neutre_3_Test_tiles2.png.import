@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mcs0vaaugl1s"
-path.s3tc="res://.godot/imported/Tiles_Herbes_Neutre_3_Test_tiles2.png-46fb2e5b25221f0155a2ca035c8dc6f5.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tiles_Herbes_Neutre_3_Test_tiles2.png-9885058dcf2558e957d51af6744e0aac.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/Tiles_Herbes_Neutre_3_Test_tiles2.png"
-dest_files=["res://.godot/imported/Tiles_Herbes_Neutre_3_Test_tiles2.png-46fb2e5b25221f0155a2ca035c8dc6f5.s3tc.ctex"]
+source_file="res://assets/Assets_TileMap/Tiles_Herbes_Neutre_3_Test_tiles2.png"
+dest_files=["res://.godot/imported/Tiles_Herbes_Neutre_3_Test_tiles2.png-9885058dcf2558e957d51af6744e0aac.s3tc.ctex"]
 
 [params]
 

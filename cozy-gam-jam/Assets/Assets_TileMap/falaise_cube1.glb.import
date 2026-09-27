@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b6vseq5cib5aq"
-path="res://.godot/imported/falaise_cube1.glb-275b19c2f23ac17f11cd888e25238d98.scn"
+path="res://.godot/imported/falaise_cube1.glb-3b3a6446ad9aaec8196c37907a3648c1.scn"
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/falaise_cube1.glb"
-dest_files=["res://.godot/imported/falaise_cube1.glb-275b19c2f23ac17f11cd888e25238d98.scn"]
+source_file="res://assets/Assets_TileMap/falaise_cube1.glb"
+dest_files=["res://.godot/imported/falaise_cube1.glb-3b3a6446ad9aaec8196c37907a3648c1.scn"]
 
 [params]
 
@@ -43,7 +43,7 @@ _subresources={
 "materials": {
 "Material.003": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/Assets_TileMap/Material.003.tres",
+"use_external/fallback_path": "res://assets/Assets_TileMap/Material.003.tres",
 "use_external/path": "uid://ce4bbcqd4ni30"
 }
 }

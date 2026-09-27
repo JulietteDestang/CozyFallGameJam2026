@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvil2cy8n1ycb"
-path="res://.godot/imported/Exit_over.png-66ab9fe7ecc7c79830710e437974ccbf.ctex"
+path="res://.godot/imported/Exit_over.png-e9d0cd404933a27b96780adb40e7ffc9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UI/Exit_over.png"
-dest_files=["res://.godot/imported/Exit_over.png-66ab9fe7ecc7c79830710e437974ccbf.ctex"]
+source_file="res://assets/UI/Exit_over.png"
+dest_files=["res://.godot/imported/Exit_over.png-e9d0cd404933a27b96780adb40e7ffc9.ctex"]
 
 [params]
 

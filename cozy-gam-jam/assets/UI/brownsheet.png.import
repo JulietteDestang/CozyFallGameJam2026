@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c18c8f76ckdqx"
-path="res://.godot/imported/brownsheet.png-b28d78651a9865a116125c4fdc3e092c.ctex"
+path="res://.godot/imported/brownsheet.png-1c7cc32b2dfb282a87d4b76d155d89cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UI/brownsheet.png"
-dest_files=["res://.godot/imported/brownsheet.png-b28d78651a9865a116125c4fdc3e092c.ctex"]
+source_file="res://assets/UI/brownsheet.png"
+dest_files=["res://.godot/imported/brownsheet.png-1c7cc32b2dfb282a87d4b76d155d89cf.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwavamu7u3uxt"
-path.s3tc="res://.godot/imported/Champi anim_Bolet_basique_texture_16x16.png-2d00954592ada0b827bf9ed4ec9db43a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Champi anim_Bolet_basique_texture_16x16.png-de299c13ae1eea41e01949214f227a7e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/Champi anim_Bolet_basique_texture_16x16.png"
-dest_files=["res://.godot/imported/Champi anim_Bolet_basique_texture_16x16.png-2d00954592ada0b827bf9ed4ec9db43a.s3tc.ctex"]
+source_file="res://assets/Champi anim_Bolet_basique_texture_16x16.png"
+dest_files=["res://.godot/imported/Champi anim_Bolet_basique_texture_16x16.png-de299c13ae1eea41e01949214f227a7e.s3tc.ctex"]
 
 [params]
 

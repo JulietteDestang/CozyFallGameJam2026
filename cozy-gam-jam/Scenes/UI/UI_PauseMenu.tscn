@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://dd5lnd443x88l"]
 
 [ext_resource type="Script" uid="uid://ugnr4u310cun" path="res://Scripts/UI/PauseMenu.gd" id="1_pgvi2"]
-[ext_resource type="Texture2D" uid="uid://b2sxstuss7mvi" path="res://assets/UI/PLAY_neutre.png" id="2_gl45d"]
-[ext_resource type="Texture2D" uid="uid://do45685hpn88o" path="res://assets/UI/play_click.png" id="3_5cqm3"]
-[ext_resource type="Texture2D" uid="uid://ccb2xjv8hygf2" path="res://assets/UI/play_over.png" id="4_bdnvy"]
+[ext_resource type="Texture2D" uid="uid://c3jc4bjd3c5cn" path="res://assets/UI/resume_neutre.png" id="3_gl45d"]
+[ext_resource type="Texture2D" uid="uid://dsf1jin20knn" path="res://assets/UI/resume-click.png" id="4_5cqm3"]
+[ext_resource type="Texture2D" uid="uid://fig0wdghoqw3" path="res://assets/UI/resume_hover.png" id="5_bdnvy"]
 [ext_resource type="Texture2D" uid="uid://oxryfehvmuyb" path="res://assets/UI/exit_neutre.png" id="5_kk342"]
 [ext_resource type="Texture2D" uid="uid://b6ayxp1ovk3pu" path="res://assets/UI/exit_click.png" id="6_o2odh"]
 [ext_resource type="Texture2D" uid="uid://dvil2cy8n1ycb" path="res://assets/UI/Exit_over.png" id="7_c7rof"]
@@ -14,13 +14,13 @@ shader = ExtResource("8_gl45d")
 shader_parameter/blur_amount = 10.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yhmtn"]
-texture = ExtResource("2_gl45d")
+texture = ExtResource("3_gl45d")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lvtmh"]
-texture = ExtResource("3_5cqm3")
+texture = ExtResource("4_5cqm3")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gwjdr"]
-texture = ExtResource("4_bdnvy")
+texture = ExtResource("5_bdnvy")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yyih5"]
 texture = ExtResource("5_kk342")

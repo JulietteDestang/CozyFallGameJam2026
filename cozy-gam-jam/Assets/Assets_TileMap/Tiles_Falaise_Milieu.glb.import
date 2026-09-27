@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dflsi0n5u1jff"
-path="res://.godot/imported/Tiles_Falaise_Milieu.glb-8a5480e3d0d15d94814838b1a8ccccd3.scn"
+path="res://.godot/imported/Tiles_Falaise_Milieu.glb-7e432ad4b8ea631106efdd8749b310bd.scn"
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/Tiles_Falaise_Milieu.glb"
-dest_files=["res://.godot/imported/Tiles_Falaise_Milieu.glb-8a5480e3d0d15d94814838b1a8ccccd3.scn"]
+source_file="res://assets/Assets_TileMap/Tiles_Falaise_Milieu.glb"
+dest_files=["res://.godot/imported/Tiles_Falaise_Milieu.glb-7e432ad4b8ea631106efdd8749b310bd.scn"]
 
 [params]
 

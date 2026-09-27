@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm7hfmk76rcdy"
-path="res://.godot/imported/sprite_basemush.jpg-3e79bc232e967aa52cd47de27dcafc51.ctex"
+path="res://.godot/imported/sprite_basemush.jpg-5a7fb24ba82ccf0e77a7929956401d4c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UI/sprite_basemush.jpg"
-dest_files=["res://.godot/imported/sprite_basemush.jpg-3e79bc232e967aa52cd47de27dcafc51.ctex"]
+source_file="res://assets/UI/sprite_basemush.jpg"
+dest_files=["res://.godot/imported/sprite_basemush.jpg-5a7fb24ba82ccf0e77a7929956401d4c.ctex"]
 
 [params]
 

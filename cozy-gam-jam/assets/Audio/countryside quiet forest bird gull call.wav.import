@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cj6njeps4fx27"
+path="res://.godot/imported/countryside quiet forest bird gull call.wav-98040f40924022a818ef660e564f3661.sample"
+
+[deps]
+
+source_file="res://assets/Audio/countryside quiet forest bird gull call.wav"
+dest_files=["res://.godot/imported/countryside quiet forest bird gull call.wav-98040f40924022a818ef660e564f3661.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

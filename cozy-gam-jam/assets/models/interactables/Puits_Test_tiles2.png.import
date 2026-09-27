@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm2ag4uejy5g1"
-path.s3tc="res://.godot/imported/Puits_Test_tiles2.png-79e3e833dc12e7c53f6c1dccfc4db897.s3tc.ctex"
+path.s3tc="res://.godot/imported/Puits_Test_tiles2.png-0e45d61f74834cde1fe5efe149929df6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/models/interactables/Puits_Test_tiles2.png"
-dest_files=["res://.godot/imported/Puits_Test_tiles2.png-79e3e833dc12e7c53f6c1dccfc4db897.s3tc.ctex"]
+source_file="res://assets/models/interactables/Puits_Test_tiles2.png"
+dest_files=["res://.godot/imported/Puits_Test_tiles2.png-0e45d61f74834cde1fe5efe149929df6.s3tc.ctex"]
 
 [params]
 

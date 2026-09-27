@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ddyupwwlgffer"
-path="res://.godot/imported/roche_river.glb-a353785e14788f3af1573255f58e0e12.scn"
+path="res://.godot/imported/roche_river.glb-febb2740ddb4a1fba4c6968ae730ea5f.scn"
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/roche_river.glb"
-dest_files=["res://.godot/imported/roche_river.glb-a353785e14788f3af1573255f58e0e12.scn"]
+source_file="res://assets/Assets_TileMap/roche_river.glb"
+dest_files=["res://.godot/imported/roche_river.glb-febb2740ddb4a1fba4c6968ae730ea5f.scn"]
 
 [params]
 

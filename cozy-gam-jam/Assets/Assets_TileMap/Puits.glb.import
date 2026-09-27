@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://gqu2kshu5sg2"
-path="res://.godot/imported/Puits.glb-da398a5a90025cc7282e0c81a08d0818.scn"
+path="res://.godot/imported/Puits.glb-94d2f985941805124d56b1422a018812.scn"
 
 [deps]
 
-source_file="res://Assets/Assets_TileMap/Puits.glb"
-dest_files=["res://.godot/imported/Puits.glb-da398a5a90025cc7282e0c81a08d0818.scn"]
+source_file="res://assets/Assets_TileMap/Puits.glb"
+dest_files=["res://.godot/imported/Puits.glb-94d2f985941805124d56b1422a018812.scn"]
 
 [params]
 

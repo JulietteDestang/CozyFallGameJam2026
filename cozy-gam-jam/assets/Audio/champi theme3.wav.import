@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cb40jqp834je3"
-path="res://.godot/imported/champi theme3.wav-0630905708783bda7254b9f314772cb7.sample"
+path="res://.godot/imported/champi theme3.wav-d383b681eb1abf0ba6bf4cdd1e09102f.sample"
 
 [deps]
 
-source_file="res://Assets/Audio/champi theme3.wav"
-dest_files=["res://.godot/imported/champi theme3.wav-0630905708783bda7254b9f314772cb7.sample"]
+source_file="res://assets/Audio/champi theme3.wav"
+dest_files=["res://.godot/imported/champi theme3.wav-d383b681eb1abf0ba6bf4cdd1e09102f.sample"]
 
 [params]
 

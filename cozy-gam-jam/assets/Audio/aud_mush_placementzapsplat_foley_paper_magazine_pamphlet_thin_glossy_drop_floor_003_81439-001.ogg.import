@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bttcpoy18jd0c"
-path="res://.godot/imported/aud_mush_placementzapsplat_foley_paper_magazine_pamphlet_thin_glossy_drop_floor_003_81439-001.ogg-5d202c3680748c4e3c8e5dc46dcebd6c.oggvorbisstr"
+path="res://.godot/imported/aud_mush_placementzapsplat_foley_paper_magazine_pamphlet_thin_glossy_drop_floor_003_81439-001.ogg-8b0ed5ab0e910e414e37ee502dbb5fc1.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/Audio/aud_mush_placementzapsplat_foley_paper_magazine_pamphlet_thin_glossy_drop_floor_003_81439-001.ogg"
-dest_files=["res://.godot/imported/aud_mush_placementzapsplat_foley_paper_magazine_pamphlet_thin_glossy_drop_floor_003_81439-001.ogg-5d202c3680748c4e3c8e5dc46dcebd6c.oggvorbisstr"]
+source_file="res://assets/Audio/aud_mush_placementzapsplat_foley_paper_magazine_pamphlet_thin_glossy_drop_floor_003_81439-001.ogg"
+dest_files=["res://.godot/imported/aud_mush_placementzapsplat_foley_paper_magazine_pamphlet_thin_glossy_drop_floor_003_81439-001.ogg-8b0ed5ab0e910e414e37ee502dbb5fc1.oggvorbisstr"]
 
 [params]
 

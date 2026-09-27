@@ -45,6 +45,7 @@ scale_3d_max = Vector3(0.635, 0.635, 0.635)
 [node name="arb_3" type="Node3D" unique_id=1698937182]
 
 [node name="Arbre var3" parent="." unique_id=1487432983 instance=ExtResource("4_1kg6d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00039434433, 0.001333952, 0.0001385212)
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="Arbre var3" unique_id=936166852]
 transform = Transform3D(0.9926818, -0.11977269, -0.0154045345, 0.11995384, 0.99271375, 0.011425448, 0.013923835, -0.01318967, 0.99981606, -0.1808455, 2.386074, 0.31395447)

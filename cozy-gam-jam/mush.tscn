@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cwq7wno5p8sdq"]
+
+[ext_resource type="PackedScene" uid="uid://mx2mw1vviioe" path="res://assets/Champi anim.glb" id="1_ymh0n"]
+
+[node name="mush" type="Node3D" unique_id=2023263284]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1233899853]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2439015, 3.774203)
+
+[node name="Champi anim" parent="." unique_id=1231541899 instance=ExtResource("1_ymh0n")]
+
+[node name="Skeleton3D" parent="Champi anim/Armature" parent_id_path=PackedInt32Array(1231541899, 827000636) index="0" unique_id=1921463008]
+bones/0/position = Vector3(0, 1.9166197, 0)
+bones/0/rotation = Quaternion(-2.0991432e-05, 0.0003963995, 0.00157508, 0.9999987)
+bones/0/scale = Vector3(1.0150306, 1.0150305, 1.0150304)
+
+[node name="AnimationPlayer" parent="Champi anim" index="1" unique_id=773971907]
+autoplay = &"ArmatureAction"
+
+[editable path="Champi anim"]

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bl8q5hm4kjkmw"
-path="res://.godot/imported/Mesh_Deco_Nenuphare.glb-1e9f11390889ccbde7ee4e0524171efe.scn"
+path="res://.godot/imported/Mesh_Deco_Nenuphare.glb-8945178ca805d8420900739e5dc21eed.scn"
 
 [deps]
 
-source_file="res://Assets/Mesh_Deco_Nenuphare.glb"
-dest_files=["res://.godot/imported/Mesh_Deco_Nenuphare.glb-1e9f11390889ccbde7ee4e0524171efe.scn"]
+source_file="res://assets/Mesh_Deco_Nenuphare.glb"
+dest_files=["res://.godot/imported/Mesh_Deco_Nenuphare.glb-8945178ca805d8420900739e5dc21eed.scn"]
 
 [params]
 

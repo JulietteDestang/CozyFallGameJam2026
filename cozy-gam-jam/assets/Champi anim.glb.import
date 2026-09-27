@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://mx2mw1vviioe"
-path="res://.godot/imported/Champi anim.glb-2f4cb59945c851c1bf9c13ca62775a6a.scn"
+path="res://.godot/imported/Champi anim.glb-4e1f58fdd8b9dfe33e09ac9ea3f84c68.scn"
 
 [deps]
 
-source_file="res://Assets/Champi anim.glb"
-dest_files=["res://.godot/imported/Champi anim.glb-2f4cb59945c851c1bf9c13ca62775a6a.scn"]
+source_file="res://assets/Champi anim.glb"
+dest_files=["res://.godot/imported/Champi anim.glb-4e1f58fdd8b9dfe33e09ac9ea3f84c68.scn"]
 
 [params]
 
@@ -2101,7 +2101,7 @@ _subresources={
 "materials": {
 "Material.001": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/Material.001.tres",
+"use_external/fallback_path": "res://assets/Material.001.tres",
 "use_external/path": "uid://b0ytr53cauqhi"
 }
 }

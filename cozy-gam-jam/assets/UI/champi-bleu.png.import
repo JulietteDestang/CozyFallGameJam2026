@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmo4robv43gl4"
-path="res://.godot/imported/champi-bleu.png-3ff0481c13ff340a482416527e9ba642.ctex"
+path="res://.godot/imported/champi-bleu.png-fb7080fc9f61d24879d2e988decbb2de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UI/champi-bleu.png"
-dest_files=["res://.godot/imported/champi-bleu.png-3ff0481c13ff340a482416527e9ba642.ctex"]
+source_file="res://assets/UI/champi-bleu.png"
+dest_files=["res://.godot/imported/champi-bleu.png-fb7080fc9f61d24879d2e988decbb2de.ctex"]
 
 [params]
 

@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://da6wmlh8iiygt" path="res://Scripts/Audio/Global_Audio.gd" id="1_0vlkh"]
 [ext_resource type="AudioStream" uid="uid://cb40jqp834je3" path="res://assets/Audio/champi theme3.wav" id="2_0vlkh"]
+[ext_resource type="AudioStream" uid="uid://cj6njeps4fx27" path="res://assets/Audio/countryside quiet forest bird gull call.wav" id="3_bvbjy"]
 
 [node name="GameAudio" type="Node" unique_id=911854221]
 script = ExtResource("1_0vlkh")
@@ -10,6 +11,12 @@ script = ExtResource("1_0vlkh")
 stream = ExtResource("2_0vlkh")
 autoplay = true
 bus = &"Music"
+
+[node name="AmbianceStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1871476981]
+stream = ExtResource("3_bvbjy")
+volume_db = -20.0
+autoplay = true
+bus = &"SFX"
 
 [node name="Control" type="Control" parent="." unique_id=2010999498]
 layout_mode = 3

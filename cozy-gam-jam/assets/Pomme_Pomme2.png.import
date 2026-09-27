@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c87qup0m18dfx"
-path.s3tc="res://.godot/imported/Pomme_Pomme2.png-df7b250eb97a626620d2cde834d35056.s3tc.ctex"
+path.s3tc="res://.godot/imported/Pomme_Pomme2.png-f9045e0a4784d133943837f50900153e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/Pomme_Pomme2.png"
-dest_files=["res://.godot/imported/Pomme_Pomme2.png-df7b250eb97a626620d2cde834d35056.s3tc.ctex"]
+source_file="res://assets/Pomme_Pomme2.png"
+dest_files=["res://.godot/imported/Pomme_Pomme2.png-f9045e0a4784d133943837f50900153e.s3tc.ctex"]
 
 [params]
 
