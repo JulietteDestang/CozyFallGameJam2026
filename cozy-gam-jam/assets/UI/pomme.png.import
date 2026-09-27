@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chrbrwvmgofl5"
-path="res://.godot/imported/pomme.png-38ced737297824e7476bf62bc6e25115.ctex"
+path="res://.godot/imported/pomme.png-2f8213f68e33bbf7584eb6d01a7307eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/pomme.png"
-dest_files=["res://.godot/imported/pomme.png-38ced737297824e7476bf62bc6e25115.ctex"]
+source_file="res://Assets/UI/pomme.png"
+dest_files=["res://.godot/imported/pomme.png-2f8213f68e33bbf7584eb6d01a7307eb.ctex"]
 
 [params]
 

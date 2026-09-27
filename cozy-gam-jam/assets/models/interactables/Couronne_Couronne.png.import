@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://y6ysaoc4xhai"
-path.s3tc="res://.godot/imported/Couronne_Couronne.png-49583b33ea8921691fde5ae6ed4d42ca.s3tc.ctex"
+path.s3tc="res://.godot/imported/Couronne_Couronne.png-aa423fd2a66d0a6fd495dfeb314fddf7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/interactables/Couronne_Couronne.png"
-dest_files=["res://.godot/imported/Couronne_Couronne.png-49583b33ea8921691fde5ae6ed4d42ca.s3tc.ctex"]
+source_file="res://Assets/models/interactables/Couronne_Couronne.png"
+dest_files=["res://.godot/imported/Couronne_Couronne.png-aa423fd2a66d0a6fd495dfeb314fddf7.s3tc.ctex"]
 
 [params]
 

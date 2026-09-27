@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br8i65mmgfgy3"
-path="res://.godot/imported/pierre.png-d4dafef7ec895c0d8f65bbc143d39bb1.ctex"
+path="res://.godot/imported/pierre.png-ddb217b4a3d378d5b7c4a71bd83a605b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/pierre.png"
-dest_files=["res://.godot/imported/pierre.png-d4dafef7ec895c0d8f65bbc143d39bb1.ctex"]
+source_file="res://Assets/UI/pierre.png"
+dest_files=["res://.godot/imported/pierre.png-ddb217b4a3d378d5b7c4a71bd83a605b.ctex"]
 
 [params]
 

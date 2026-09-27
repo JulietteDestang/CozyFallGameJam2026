@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bykdkom3c4o60"
-path.s3tc="res://.godot/imported/Minerai base_Minerais base texture.png-d9cf0531e6bf2f733d3506c93841cf16.s3tc.ctex"
+path.s3tc="res://.godot/imported/Minerai base_Minerais base texture.png-cc7cf799967cfc3791b0dba7216f76db.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/Minerai base_Minerais base texture.png"
-dest_files=["res://.godot/imported/Minerai base_Minerais base texture.png-d9cf0531e6bf2f733d3506c93841cf16.s3tc.ctex"]
+source_file="res://Assets/Minerai base_Minerais base texture.png"
+dest_files=["res://.godot/imported/Minerai base_Minerais base texture.png-cc7cf799967cfc3791b0dba7216f76db.s3tc.ctex"]
 
 [params]
 

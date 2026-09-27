@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://cri8ttautsyc6"]
 
 [ext_resource type="Script" uid="uid://l2iiioxqvjlr" path="res://Scripts/UI/MainMenu.gd" id="1_46i7v"]
-[ext_resource type="Texture2D" uid="uid://b2sxstuss7mvi" path="res://assets/UI/PLAY_neutre.png" id="2_0273a"]
-[ext_resource type="Texture2D" uid="uid://do45685hpn88o" path="res://assets/UI/play_click.png" id="3_jtuty"]
-[ext_resource type="Texture2D" uid="uid://ccb2xjv8hygf2" path="res://assets/UI/play_over.png" id="4_r0rps"]
-[ext_resource type="Texture2D" uid="uid://oxryfehvmuyb" path="res://assets/UI/exit_neutre.png" id="5_v6tsw"]
-[ext_resource type="Texture2D" uid="uid://b6ayxp1ovk3pu" path="res://assets/UI/exit_click.png" id="6_cw5e2"]
-[ext_resource type="Texture2D" uid="uid://dvil2cy8n1ycb" path="res://assets/UI/Exit_over.png" id="7_vg51c"]
+[ext_resource type="Texture2D" uid="uid://b2sxstuss7mvi" path="res://Assets/UI/PLAY_neutre.png" id="2_0273a"]
+[ext_resource type="Texture2D" uid="uid://do45685hpn88o" path="res://Assets/UI/play_click.png" id="3_jtuty"]
+[ext_resource type="Texture2D" uid="uid://ccb2xjv8hygf2" path="res://Assets/UI/play_over.png" id="4_r0rps"]
+[ext_resource type="Texture2D" uid="uid://oxryfehvmuyb" path="res://Assets/UI/exit_neutre.png" id="5_v6tsw"]
+[ext_resource type="Texture2D" uid="uid://b6ayxp1ovk3pu" path="res://Assets/UI/exit_click.png" id="6_cw5e2"]
+[ext_resource type="Texture2D" uid="uid://dvil2cy8n1ycb" path="res://Assets/UI/Exit_over.png" id="7_vg51c"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yhmtn"]
 texture = ExtResource("2_0273a")
