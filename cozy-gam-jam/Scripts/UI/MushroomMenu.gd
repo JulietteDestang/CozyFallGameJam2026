@@ -1,13 +1,15 @@
 extends HBoxContainer
 
-@onready var button_mothermush: Button = $button1_mothershroom
-@onready var button_lilmush: Button = $button2_blueshroom
-@onready var button_appliance: Button = $button2_redshroom
+@onready var button_queen: Button = $button_queen
+@onready var button_simple: Button = $button_simple
+@onready var button_water: Button = $button_water
+@onready var button_explo: Button = $button_explo
 
 func _ready() -> void:
-	button_mothermush.pressed.connect(_on_mushroom_selected.bind("brown"))
-	button_lilmush.pressed.connect(_on_mushroom_selected.bind("blue"))
-	button_appliance.pressed.connect(_on_mushroom_selected.bind("explo"))
+	button_queen.pressed.connect(_on_mushroom_selected.bind("queen"))
+	button_simple.pressed.connect(_on_mushroom_selected.bind("simple"))
+	button_water.pressed.connect(_on_mushroom_selected.bind("water"))
+	button_explo.pressed.connect(_on_mushroom_selected.bind("explo"))
 	_update_button_highlight()
 
 func _on_mushroom_selected(type: String) -> void:
@@ -16,6 +18,7 @@ func _on_mushroom_selected(type: String) -> void:
 	_update_button_highlight()
 
 func _update_button_highlight() -> void:
-	button_mothermush.disabled = (MushroomManager.selected_mushroom == "brown")
-	button_lilmush.disabled = (MushroomManager.selected_mushroom == "blue")
-	button_appliance.disabled = (MushroomManager.selected_mushroom == "explo")
+	button_queen.disabled = (MushroomManager.selected_mushroom == "queen")
+	button_simple.disabled = (MushroomManager.selected_mushroom == "simple")
+	button_water.disabled = (MushroomManager.selected_mushroom == "water")
+	button_explo.disabled = (MushroomManager.selected_mushroom == "explo")

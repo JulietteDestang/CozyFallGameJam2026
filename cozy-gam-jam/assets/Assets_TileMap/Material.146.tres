@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bny5imk7wgyu6"]
+
+[ext_resource type="Texture2D" uid="uid://dmnwkf77xfcdx" path="res://assets/Assets_TileMap/Buisson3_Test_tiles2_1.png" id="1_gxr5c"]
+
+[resource]
+resource_name = "Material.146"
+cull_mode = 2
+albedo_texture = ExtResource("1_gxr5c")
+metallic = 1.0
+texture_filter = 2
+metadata/_gltf_primary_texture_coord = 0

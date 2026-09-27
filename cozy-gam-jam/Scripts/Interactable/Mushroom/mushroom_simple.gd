@@ -2,7 +2,7 @@ extends MushroomBase
 
 func can_be_placed_at(pos: Vector3, existing_mushrooms: Array) -> bool:
 
-	if PlayerRessources.get_resource("iron") < 1:
+	if PlayerRessources.get_resource("apple") < 1:
 		return false
 
 	for mushroom in existing_mushrooms:
@@ -11,7 +11,7 @@ func can_be_placed_at(pos: Vector3, existing_mushrooms: Array) -> bool:
 		var in_zone = mushroom.is_pos_in_zone(pos)
 		print("Mushroom ", mushroom.name, " - in_zone: ", in_zone)
 		if in_zone:
-			PlayerRessources.remove_resource("iron")
+			PlayerRessources.remove_resource("apple")
 			return true
 
 	return false

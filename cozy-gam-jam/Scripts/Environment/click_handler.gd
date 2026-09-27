@@ -2,11 +2,6 @@ extends Node3D
 
 @onready var camera: Camera3D = $Camera3D2
 
-
-
-
-
-
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton \
 	and event.pressed \
@@ -26,22 +21,32 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func _handle_click(collider: Node, world_pos: Vector3) -> void:
-	#print("Collider touché : ", collider.name, " | groups: ", collider.get_groups())
+
 	if collider is Nenuphar:
-		print("nenuphar")
 		if collider.can_accept_placement():
-			MushroomManager.spawn_mushroom(
-				MushroomManager.selected_mushroom,
-				collider.global_position,  # <- toujours le centre exact du nénuphar
-				self
-			)
-		return
-		
+			if MushroomManager.selected_mushroom == "water":
+				print("Appel spawn_mushroom avec type=", MushroomManager.selected_mushroom, " pos=", collider.global_position)
+				MushroomManager.spawn_mushroom(
+					MushroomManager.selected_mushroom,
+					collider.global_position,
+					self
+				)
+			return
+
 	if collider.is_in_group("interactable"):
 		if collider.has_method("interact"):
 			collider.interact()
+		return
 
-	elif collider.is_in_group("ground"):
+	if collider.is_in_group("water"):
+		return
+		
+	if collider.is_in_group("nospawn"):
+		return
+
+
+	if collider.is_in_group("ground"):
+		print("Clic sur ground classique")
 		MushroomManager.spawn_mushroom(
 			MushroomManager.selected_mushroom,
 			world_pos,

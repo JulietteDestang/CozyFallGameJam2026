@@ -1,8 +1,8 @@
-[gd_resource type="ArrayMesh" format=4 uid="uid://cncl0sqmrjal3"]
+[gd_resource type="ArrayMesh" format=4 uid="uid://ck86uyh57n77g"]
 
 [ext_resource type="Material" uid="uid://cfinwexmnoi6t" path="res://assets/models/trees/tree2/Material.042.tres" id="1_bo6sp"]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_cxdht"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_bo6sp"]
 _surfaces = [{
 "aabb": AABB(-1.0057684, -5.7104696e-08, -2.8944364, 2, 1e-05, 3.1747694),
 "format": 34896613377,
@@ -32,4 +32,4 @@ _surfaces = [{
 "vertex_data": PackedByteArray("UaoAABDS/7///wAAFi7/v///AAAQ0v+/UaoAABYu/7/kVwAA////v1GqAAD///+/5FcAABDS/7/kVwAAFi7/v1GqAAAAAP+/5FcAAAAA/78AAAAAENL/vwAAAAAWLv+/////f////3////9/////f////3////9/////f////3////9/////f////3////9/")
 }]
 blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_cxdht")
+shadow_mesh = SubResource("ArrayMesh_bo6sp")

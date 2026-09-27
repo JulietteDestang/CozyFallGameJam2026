@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ctmw26t8dwcda"]
+
+[ext_resource type="Texture2D" uid="uid://dgvbrq8husqj5" path="res://assets/Assets_TileMap/roche_river_Test_tiles2.png" id="1_p1fsx"]
+
+[resource]
+resource_name = "Tiles monde.006"
+cull_mode = 2
+albedo_texture = ExtResource("1_p1fsx")
+metallic = 1.0
+texture_filter = 2
+metadata/_gltf_primary_texture_coord = 0

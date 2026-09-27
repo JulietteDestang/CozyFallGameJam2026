@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dvofla2sq8bie"]
+
+[ext_resource type="Texture2D" uid="uid://ddtmq2pt6s17p" path="res://assets/Assets_TileMap/Arbre var2_Test_tiles2.png" id="1_ccy4v"]
+
+[resource]
+resource_name = "Material.025"
+cull_mode = 2
+albedo_texture = ExtResource("1_ccy4v")
+metallic = 1.0
+texture_filter = 2
+metadata/_gltf_primary_texture_coord = 0

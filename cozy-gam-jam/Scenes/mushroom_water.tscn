@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://djc4kprbyvrqe"]
+
+[ext_resource type="Script" uid="uid://bynay5v81foot" path="res://Scripts/Interactable/Mushroom/mushroom_water.gd" id="1_ug86u"]
+[ext_resource type="PackedScene" uid="uid://nresoubhifai" path="res://Scripts/Interactable/Mushroom/CircleZone.tscn" id="2_xaxr6"]
+[ext_resource type="PackedScene" uid="uid://mn77bcr3e2ha" path="res://assets/Mesh_ChampiEau.glb" id="3_ug86u"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_274va"]
+radius = 0.27722168
+height = 0.55444336
+
+[node name="Mushroom" type="StaticBody3D" unique_id=1916214976]
+script = ExtResource("1_ug86u")
+circle_zone_scene = ExtResource("2_xaxr6")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=129032855]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17810059, -0.09904504)
+shape = SubResource("CapsuleShape3D_274va")
+
+[node name="Mesh_ChampiEau2" parent="." unique_id=2063803425 instance=ExtResource("3_ug86u")]

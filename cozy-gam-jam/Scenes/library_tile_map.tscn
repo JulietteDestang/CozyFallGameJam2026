@@ -1,0 +1,132 @@
+[gd_scene format=3 uid="uid://dij612q5o6sh8"]
+
+[ext_resource type="PackedScene" uid="uid://ddyupwwlgffer" path="res://Assets/Assets_TileMap/roche_river.glb" id="1_34nds"]
+[ext_resource type="PackedScene" uid="uid://b6vseq5cib5aq" path="res://Assets/Assets_TileMap/falaise_cube1.glb" id="1_vaes4"]
+[ext_resource type="PackedScene" uid="uid://d3swuc5gm4ksr" path="res://Assets/Assets_TileMap/falaise_cascade.glb" id="2_qjauo"]
+[ext_resource type="PackedScene" uid="uid://buaiqqgruo02p" path="res://Assets/Assets_TileMap/Tiles_Eau_Bord.glb" id="2_xsiiy"]
+[ext_resource type="PackedScene" uid="uid://dtw4ht2vye6l3" path="res://Assets/Assets_TileMap/falaise_cube2.glb" id="3_s6bov"]
+[ext_resource type="PackedScene" uid="uid://60cvop38bn05" path="res://Assets/Assets_TileMap/Tiles_Eau_Corner.glb" id="3_veihr"]
+[ext_resource type="PackedScene" uid="uid://d1hjmtd2i8ng1" path="res://Assets/Assets_TileMap/Tiles_Eau_Neutre.glb" id="4_6a6s5"]
+[ext_resource type="PackedScene" uid="uid://t16mj1tag68d" path="res://Assets/Assets_TileMap/Tiles_Eau_Neutre_2.glb" id="5_uoa55"]
+[ext_resource type="PackedScene" uid="uid://ccu0qhqjoo8w1" path="res://Assets/Assets_TileMap/Tiles_Falaise_Basglb.glb" id="6_yw1ov"]
+[ext_resource type="PackedScene" uid="uid://bsf8cpajxfqp3" path="res://Assets/Assets_TileMap/Tiles_Falaise_Fond_Corner.glb" id="7_t3oy2"]
+[ext_resource type="PackedScene" uid="uid://dpkmvhxngwawp" path="res://Assets/Assets_TileMap/Tiles_Falaise_Fond_Neutre_1.glb" id="8_vaes4"]
+[ext_resource type="PackedScene" uid="uid://rlh51t3qfgkm" path="res://Assets/Assets_TileMap/Tiles_Falaise_Fond_Neutre_2.glb" id="9_qjauo"]
+[ext_resource type="PackedScene" uid="uid://iengsapwa5xf" path="res://Assets/Assets_TileMap/Tiles_Falaise_Fond_Neutre_3.glb" id="10_s6bov"]
+[ext_resource type="PackedScene" uid="uid://1yo4ytorsbso" path="res://Assets/Assets_TileMap/Tiles_Falaise_Fond_Side.glb" id="11_43mib"]
+[ext_resource type="PackedScene" uid="uid://cd4xs7lc8q76i" path="res://Assets/Assets_TileMap/Tiles_Falaise_Haut.glb" id="12_3mytm"]
+[ext_resource type="PackedScene" uid="uid://dflsi0n5u1jff" path="res://Assets/Assets_TileMap/Tiles_Falaise_Milieu.glb" id="13_r3d1w"]
+[ext_resource type="PackedScene" uid="uid://b6l2jfa5sjlxr" path="res://Assets/Assets_TileMap/Tiles_Herbe et eau_Corner.glb" id="14_asja2"]
+[ext_resource type="PackedScene" uid="uid://cq5ggxpsb2b1x" path="res://Assets/Assets_TileMap/Tiles_Herbe et eau_droit.glb" id="15_g1bgu"]
+[ext_resource type="PackedScene" uid="uid://c0n3biwqcmsnk" path="res://Assets/Assets_TileMap/Tiles_Herbe et eau_pond.glb" id="16_xbj66"]
+[ext_resource type="PackedScene" uid="uid://bcbn7uer1dg5p" path="res://Assets/Assets_TileMap/Tiles_Herbe et terre_Corner.glb" id="17_hs8i7"]
+[ext_resource type="PackedScene" uid="uid://cwugxdvjuoenj" path="res://Assets/Assets_TileMap/Tiles_HerbesVide_Neutre.glb" id="18_vpvr6"]
+[ext_resource type="PackedScene" uid="uid://d1q781v8pp6v0" path="res://Assets/Assets_TileMap/Tiles_Herbes_Neutre_1.glb" id="19_6s02y"]
+[ext_resource type="PackedScene" uid="uid://be8wa6javy8ch" path="res://Assets/Assets_TileMap/Tiles_Herbes_Neutre_2.glb" id="20_0vsro"]
+[ext_resource type="PackedScene" uid="uid://ddwdngkxlqgee" path="res://Assets/Assets_TileMap/Tiles_Herbe et terre_Side.glb" id="21_43mib"]
+[ext_resource type="PackedScene" uid="uid://b4wx36hwclm1d" path="res://Assets/Assets_TileMap/Tiles_Herbes_Neutre_3.glb" id="21_t0pln"]
+[ext_resource type="PackedScene" uid="uid://c2ldx4ccyi2pf" path="res://Assets/Assets_TileMap/Tiles_Terre_Neutre_3.glb" id="22_fhw00"]
+[ext_resource type="PackedScene" uid="uid://drld6istqfuvn" path="res://Assets/Assets_TileMap/Tile_terre_1.glb" id="27_3mytm"]
+[ext_resource type="PackedScene" uid="uid://da0bp37gawtol" path="res://Assets/Assets_TileMap/Tile_terre_cornercoin.glb" id="28_r3d1w"]
+[ext_resource type="PackedScene" uid="uid://c56uy605j4cte" path="res://Assets/Assets_TileMap/Tile_terre_u.glb" id="29_asja2"]
+[ext_resource type="PackedScene" uid="uid://hs5xbu5r1b73" path="res://Assets/Assets_TileMap/Arbre var2.glb" id="30_t0pln"]
+[ext_resource type="PackedScene" uid="uid://b6kjgxtt67ovi" path="res://Assets/Assets_TileMap/Arbre var3.glb" id="31_fhw00"]
+[ext_resource type="PackedScene" uid="uid://c124uvv15nw3u" path="res://Assets/Assets_TileMap/Buisson2.glb" id="32_ihtes"]
+[ext_resource type="PackedScene" uid="uid://bedba6nm7lddl" path="res://Assets/Assets_TileMap/Buisson3.glb" id="33_6yqik"]
+[ext_resource type="PackedScene" uid="uid://dknj2v1h6355s" path="res://Assets/Assets_TileMap/Caillou fissuré.glb" id="34_7j3ym"]
+[ext_resource type="PackedScene" uid="uid://60662tsv4307" path="res://Assets/Assets_TileMap/citrouille.glb" id="35_8v7np"]
+[ext_resource type="PackedScene" uid="uid://gqu2kshu5sg2" path="res://Assets/Assets_TileMap/Puits.glb" id="36_o208i"]
+[ext_resource type="PackedScene" uid="uid://bufcbogy63ywr" path="res://Assets/Assets_TileMap/Quenouille.glb" id="37_ifhcu"]
+[ext_resource type="PackedScene" uid="uid://cjdoriy8fw7fh" path="res://Assets/Assets_TileMap/Sapin.glb" id="38_axsgq"]
+[ext_resource type="PackedScene" uid="uid://clrwx3wygispn" path="res://Assets/Assets_TileMap/casbon1.glb" id="39_njwef"]
+[ext_resource type="PackedScene" uid="uid://28nr1mo2jb8" path="res://Assets/Assets_TileMap/casbon2.glb" id="40_e481e"]
+[ext_resource type="PackedScene" uid="uid://by3m1n714bae1" path="res://Assets/Assets_TileMap/casbon3.glb" id="41_ea1ho"]
+[ext_resource type="PackedScene" uid="uid://dq4eyiw6hgeh3" path="res://Assets/Assets_TileMap/casbon4.glb" id="42_50c2k"]
+
+[node name="LibraryTileMap" type="Node3D" unique_id=445231268]
+
+[node name="falaise_cube1" parent="." unique_id=968351614 instance=ExtResource("1_vaes4")]
+
+[node name="falaise_cascade" parent="." unique_id=1295780863 instance=ExtResource("2_qjauo")]
+
+[node name="falaise_cube2" parent="." unique_id=1943405523 instance=ExtResource("3_s6bov")]
+
+[node name="roche_river" parent="." unique_id=1416616869 instance=ExtResource("1_34nds")]
+
+[node name="Tiles_Eau_Bord2" parent="." unique_id=346119440 instance=ExtResource("2_xsiiy")]
+
+[node name="Tiles_Eau_Corner2" parent="." unique_id=1162065690 instance=ExtResource("3_veihr")]
+
+[node name="Tiles_Eau_Neutre2" parent="." unique_id=1718235490 instance=ExtResource("4_6a6s5")]
+
+[node name="Tiles_Eau_Neutre_22" parent="." unique_id=989926045 instance=ExtResource("5_uoa55")]
+
+[node name="Tiles_Falaise_Basglb" parent="." unique_id=1085663361 instance=ExtResource("6_yw1ov")]
+
+[node name="Tiles_Falaise_Fond_Corner2" parent="." unique_id=1094486267 instance=ExtResource("7_t3oy2")]
+
+[node name="Tiles_Falaise_Fond_Neutre_12" parent="." unique_id=243409615 instance=ExtResource("8_vaes4")]
+
+[node name="Tiles_Falaise_Fond_Neutre_22" parent="." unique_id=1315064334 instance=ExtResource("9_qjauo")]
+
+[node name="Tiles_Falaise_Fond_Neutre_32" parent="." unique_id=1038935197 instance=ExtResource("10_s6bov")]
+
+[node name="Tiles_Falaise_Fond_Side2" parent="." unique_id=1382610222 instance=ExtResource("11_43mib")]
+
+[node name="Tiles_Falaise_Haut2" parent="." unique_id=1057916093 instance=ExtResource("12_3mytm")]
+
+[node name="Tiles_Falaise_Milieu2" parent="." unique_id=2121405325 instance=ExtResource("13_r3d1w")]
+
+[node name="Tiles_Herbe et eau_Corner" parent="." unique_id=289987663 instance=ExtResource("14_asja2")]
+
+[node name="Tiles_Herbe et eau_droit2" parent="." unique_id=778546895 instance=ExtResource("15_g1bgu")]
+
+[node name="Tiles_Herbe et eau_pond2" parent="." unique_id=1691298043 instance=ExtResource("16_xbj66")]
+
+[node name="Tiles_Herbe et terre_Corner" parent="." unique_id=1832325144 instance=ExtResource("17_hs8i7")]
+
+[node name="Tiles_Herbe et terre_Side" parent="." unique_id=99685415 instance=ExtResource("21_43mib")]
+
+[node name="Tiles_HerbesVide_Neutre2" parent="." unique_id=935218765 instance=ExtResource("18_vpvr6")]
+
+[node name="Tiles_Herbes_Neutre_12" parent="." unique_id=1162593467 instance=ExtResource("19_6s02y")]
+
+[node name="Tiles_Herbes_Neutre_22" parent="." unique_id=794991390 instance=ExtResource("20_0vsro")]
+
+[node name="Tiles_Herbes_Neutre_32" parent="." unique_id=1834211734 instance=ExtResource("21_t0pln")]
+
+[node name="Tiles_Terre_Neutre_3" parent="." unique_id=1424563760 instance=ExtResource("22_fhw00")]
+
+[node name="Tile_terre_1" parent="." unique_id=2037299726 instance=ExtResource("27_3mytm")]
+
+[node name="Tile_terre_cornercoin" parent="." unique_id=1740597223 instance=ExtResource("28_r3d1w")]
+
+[node name="Tile_terre_u" parent="." unique_id=407031557 instance=ExtResource("29_asja2")]
+
+[node name="Arbre var2" parent="." unique_id=1455599902 instance=ExtResource("30_t0pln")]
+
+[node name="Arbre var3" parent="." unique_id=313154898 instance=ExtResource("31_fhw00")]
+
+[node name="Buisson2" parent="." unique_id=1613221293 instance=ExtResource("32_ihtes")]
+transform = Transform3D(0.385, 0, 0, 0, 0.385, 0, 0, 0, 0.385, 0, 0, 0)
+
+[node name="Buisson3" parent="." unique_id=2123930765 instance=ExtResource("33_6yqik")]
+
+[node name="Caillou fissuré" parent="." unique_id=376527314 instance=ExtResource("34_7j3ym")]
+
+[node name="citrouille" parent="." unique_id=321875397 instance=ExtResource("35_8v7np")]
+transform = Transform3D(0.165, 0, 0, 0, 0.165, 0, 0, 0, 0.165, 0, 0, 0)
+
+[node name="Puits" parent="." unique_id=309620349 instance=ExtResource("36_o208i")]
+
+[node name="Quenouille" parent="." unique_id=761272270 instance=ExtResource("37_ifhcu")]
+
+[node name="Sapin" parent="." unique_id=1708392020 instance=ExtResource("38_axsgq")]
+
+[node name="casbon1" parent="." unique_id=667182161 instance=ExtResource("39_njwef")]
+
+[node name="casbon2" parent="." unique_id=1358547379 instance=ExtResource("40_e481e")]
+
+[node name="casbon3" parent="." unique_id=1684441791 instance=ExtResource("41_ea1ho")]
+
+[node name="casbon4" parent="." unique_id=1115867333 instance=ExtResource("42_50c2k")]

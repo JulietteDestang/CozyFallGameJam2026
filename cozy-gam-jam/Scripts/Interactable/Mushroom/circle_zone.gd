@@ -76,7 +76,7 @@ func get_visual_radius() -> float:
 
 
 func _on_body_entered(body: Node3D) -> void:
-	if body.is_in_group("block"):
+	if body.is_in_group("block") or body.is_in_group("nospawn"):
 		_stop_growth()
 		return
 

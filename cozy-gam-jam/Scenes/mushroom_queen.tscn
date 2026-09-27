@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cop6dsh2k4kmh"]
+
+[ext_resource type="Script" uid="uid://tfyjra5jeb8" path="res://Scripts/Interactable/Mushroom/mushroom_queen.gd" id="1_qypy4"]
+[ext_resource type="PackedScene" uid="uid://nresoubhifai" path="res://Scripts/Interactable/Mushroom/CircleZone.tscn" id="2_yoi2n"]
+[ext_resource type="PackedScene" uid="uid://dl2rndfswvlux" path="res://assets/Mesh_ChampiReine.glb" id="3_f3kl7"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4o2kv"]
+radius = 0.21453857
+height = 0.42907715
+
+[node name="Mushroom" type="StaticBody3D" unique_id=1916214976]
+script = ExtResource("1_qypy4")
+circle_zone_scene = ExtResource("2_yoi2n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1742463528]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.18060303, -0.04238653)
+shape = SubResource("CapsuleShape3D_4o2kv")
+
+[node name="Mesh_ChampiReine2" parent="." unique_id=1430433023 instance=ExtResource("3_f3kl7")]
+transform = Transform3D(1, 0, 0, 0, 0.9848077, 0.1736482, 0, -0.1736482, 0.9848077, 0, 0, 0)

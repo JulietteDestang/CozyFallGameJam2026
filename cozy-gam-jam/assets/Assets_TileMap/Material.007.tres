@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://x2sw7syiupg3"]
+
+[ext_resource type="Texture2D" uid="uid://6ysqrnf5kxj2" path="res://assets/Assets_TileMap/casbon2_Test_tiles2.png" id="1_oa2gy"]
+
+[resource]
+resource_name = "Material.007"
+cull_mode = 2
+albedo_texture = ExtResource("1_oa2gy")
+roughness = 0.5
+texture_filter = 2
+metadata/_gltf_primary_texture_coord = 0
