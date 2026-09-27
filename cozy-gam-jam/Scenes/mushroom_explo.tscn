@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dqhsml3barpi7"]
+
+[ext_resource type="Script" uid="uid://c55nfddqhumni" path="res://Scripts/Interactable/Mushroom/mushroom_explo.gd" id="1_ul6ya"]
+[ext_resource type="PackedScene" uid="uid://blvc2c7ievbp6" path="res://assets/Bolet base.glb" id="3_ots2s"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uj3h4"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_274va"]
+top_radius = 2.0
+bottom_radius = 2.0
+height = 0.01
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_274va"]
+height = 0.3
+radius = 2.0
+
+[node name="Mushroom" type="StaticBody3D" unique_id=1916214976]
+script = ExtResource("1_ul6ya")
+creates_zone = false
+
+[node name="Bolet base" parent="." unique_id=249199291 instance=ExtResource("3_ots2s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.42518744, 0.26308867, 0, -0.26308867, 0.42518744, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2063881691]
+material_override = SubResource("StandardMaterial3D_uj3h4")
+mesh = SubResource("CylinderMesh_274va")
+
+[node name="Area3D" type="Area3D" parent="." unique_id=77063069]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1904411333]
+shape = SubResource("CylinderShape3D_274va")

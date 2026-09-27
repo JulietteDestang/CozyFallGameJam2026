@@ -7,6 +7,7 @@ extends HBoxContainer
 func _ready() -> void:
 	button_mothermush.pressed.connect(_on_mushroom_selected.bind("brown"))
 	button_lilmush.pressed.connect(_on_mushroom_selected.bind("blue"))
+	button_appliance.pressed.connect(_on_mushroom_selected.bind("explo"))
 	_update_button_highlight()
 
 func _on_mushroom_selected(type: String) -> void:
@@ -17,3 +18,4 @@ func _on_mushroom_selected(type: String) -> void:
 func _update_button_highlight() -> void:
 	button_mothermush.disabled = (MushroomManager.selected_mushroom == "brown")
 	button_lilmush.disabled = (MushroomManager.selected_mushroom == "blue")
+	button_appliance.disabled = (MushroomManager.selected_mushroom == "explo")

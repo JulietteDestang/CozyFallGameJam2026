@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://b7iwuprwpa2ro" path="res://assets/UI/Eau.png" id="7_b43ov"]
 [ext_resource type="Texture2D" uid="uid://chrbrwvmgofl5" path="res://assets/UI/pomme.png" id="8_lvwyx"]
 
+
 [node name="inGameUI" type="Control" unique_id=671034291]
 layout_mode = 3
 anchors_preset = 15

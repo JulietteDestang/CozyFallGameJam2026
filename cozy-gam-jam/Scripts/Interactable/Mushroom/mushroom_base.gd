@@ -1,11 +1,12 @@
 extends StaticBody3D
 class_name MushroomBase
 
+@export var creates_zone: bool = true  # <- coche/décoche dans l'inspecteur de chaque scène enfant
 @export var circle_zone_scene: PackedScene
-@export var spawn_interval: float = 1.0
-@export var new_circle_radius: float = 5.0
-@export var new_circle_grow_duration: float = 10.0
-@export var max_circles: int = 20
+@export var spawn_interval: float = 5.0
+@export var new_circle_radius: float = 1.0
+@export var new_circle_grow_duration: float = 5.0
+@export var max_circles: int = 5
 
 var circles: Array = []
 
@@ -21,8 +22,10 @@ func initialize() -> void:
 		return
 
 	initialized = true
-	_spawn_circle_at(global_position)
-	_start_spawn_loop()
+
+	if creates_zone:
+		_spawn_circle_at(global_position)
+		_start_spawn_loop()
 
 func _start_spawn_loop() -> void:
 	while true:

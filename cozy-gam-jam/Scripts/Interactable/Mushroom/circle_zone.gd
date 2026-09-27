@@ -1,8 +1,8 @@
 extends Area3D
 class_name CircleZone
 
-@export var target_radius: float = 3.0
-@export var grow_duration: float = 10.0
+@export var target_radius: float = 1.0
+@export var grow_duration: float = 5.0
 @export var outline_y: float = 0.01
 
 @onready var mesh_instance: MeshInstance3D = $MeshInstance3D
