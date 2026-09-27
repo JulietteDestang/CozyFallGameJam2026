@@ -42,7 +42,7 @@ use_scale_3d = true
 scale_3d_min = Vector3(0.54, 0.54, 0.54)
 scale_3d_max = Vector3(0.635, 0.635, 0.635)
 
-[node name="Node3D" type="Node3D" unique_id=1698937182]
+[node name="arb_3" type="Node3D" unique_id=1698937182]
 
 [node name="Arbre var3" parent="." unique_id=1487432983 instance=ExtResource("4_1kg6d")]
 

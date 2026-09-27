@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://dd5lnd443x88l"]
+
+[ext_resource type="Script" uid="uid://ugnr4u310cun" path="res://Scripts/UI/PauseMenu.gd" id="1_pgvi2"]
+[ext_resource type="Texture2D" uid="uid://b2sxstuss7mvi" path="res://assets/UI/PLAY_neutre.png" id="2_gl45d"]
+[ext_resource type="Texture2D" uid="uid://do45685hpn88o" path="res://assets/UI/play_click.png" id="3_5cqm3"]
+[ext_resource type="Texture2D" uid="uid://ccb2xjv8hygf2" path="res://assets/UI/play_over.png" id="4_bdnvy"]
+[ext_resource type="Texture2D" uid="uid://oxryfehvmuyb" path="res://assets/UI/exit_neutre.png" id="5_kk342"]
+[ext_resource type="Texture2D" uid="uid://b6ayxp1ovk3pu" path="res://assets/UI/exit_click.png" id="6_o2odh"]
+[ext_resource type="Texture2D" uid="uid://dvil2cy8n1ycb" path="res://assets/UI/Exit_over.png" id="7_c7rof"]
+[ext_resource type="Shader" uid="uid://jlov3vjo6hns" path="res://Scenes/UI/UI_PauseMenuBlur.gdshader" id="8_gl45d"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_pgvi2"]
+shader = ExtResource("8_gl45d")
+shader_parameter/blur_amount = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yhmtn"]
+texture = ExtResource("2_gl45d")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lvtmh"]
+texture = ExtResource("3_5cqm3")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gwjdr"]
+texture = ExtResource("4_bdnvy")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yyih5"]
+texture = ExtResource("5_kk342")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_elkpi"]
+texture = ExtResource("6_o2odh")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qjyg3"]
+texture = ExtResource("7_c7rof")
+
+[node name="PauseMenu" type="CanvasLayer" unique_id=1538129599]
+process_mode = 3
+script = ExtResource("1_pgvi2")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=855661508]
+visibility_layer = 17
+material = SubResource("ShaderMaterial_pgvi2")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(1, 1, 1, 0.5882353)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1834591020]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -33.0
+offset_top = -16.0
+offset_right = 33.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control" type="Control" parent="HBoxContainer" unique_id=1960009303]
+custom_minimum_size = Vector2(700, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=923846129]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Resume" type="Button" parent="HBoxContainer/VBoxContainer" unique_id=581072830]
+custom_minimum_size = Vector2(255.305, 162.93)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_yhmtn")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_lvtmh")
+theme_override_styles/hover = SubResource("StyleBoxTexture_gwjdr")
+
+[node name="HSeparator" type="HSeparator" parent="HBoxContainer/VBoxContainer" unique_id=39917052]
+layout_mode = 2
+
+[node name="HSeparator2" type="HSeparator" parent="HBoxContainer/VBoxContainer" unique_id=1726284968]
+layout_mode = 2
+
+[node name="Exit" type="Button" parent="HBoxContainer/VBoxContainer" unique_id=1926866139]
+custom_minimum_size = Vector2(255.305, 162.93)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_yyih5")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_elkpi")
+theme_override_styles/hover = SubResource("StyleBoxTexture_qjyg3")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=269306046]
+
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]

@@ -1,6 +1,6 @@
 extends Node3D
 
-@onready var camera: Camera3D = $Camera3D
+@onready var camera: Camera3D = $Camera3D2
 
 var hovered_mushroom: MushroomBase = null
 

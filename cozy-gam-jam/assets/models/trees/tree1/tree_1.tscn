@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://fbfj6sppula7" path="res://assets/models/trees/tree1/Arbre var1.glb" id="1_hmx6n"]
 [ext_resource type="Texture2D" uid="uid://r7knd8rufyg6" path="res://assets/models/trees/tree1/feuille1.png" id="2_3aufe"]
 [ext_resource type="Texture2D" uid="uid://jrentkeftu0j" path="res://assets/models/trees/tree1/Feuille1_Test_tiles2.png" id="3_k0xog"]
-[ext_resource type="ArrayMesh" uid="uid://bs2df4m3ba7xd" path="res://assets/models/trees/tree1/feuille1_arraymesh.tres" id="4_6e5ns"]
+[ext_resource type="ArrayMesh" uid="uid://bou7asf28nt2m" path="res://assets/models/trees/tree1/feuille1_arraymesh.tres" id="4_6e5ns"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dusgn"]
 albedo_texture = ExtResource("2_3aufe")
@@ -42,7 +42,7 @@ use_scale_3d = true
 scale_3d_min = Vector3(0.05, 0.05, 0.05)
 scale_3d_max = Vector3(0.09, 0.09, 0.09)
 
-[node name="Node3D" type="Node3D" unique_id=1698937182]
+[node name="arb_1" type="Node3D" unique_id=1698937182]
 
 [node name="Arbre var1" parent="." unique_id=159190841 instance=ExtResource("1_hmx6n")]
 
