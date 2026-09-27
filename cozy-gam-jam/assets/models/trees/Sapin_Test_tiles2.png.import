@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2wt2jet52rt1"
-path.s3tc="res://.godot/imported/Sapin_Test_tiles2.png-f5a9b0236cccba99303959878fb9108a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Sapin_Test_tiles2.png-48872b21da6066adc75fc0723b3d3885.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/trees/Sapin_Test_tiles2.png"
-dest_files=["res://.godot/imported/Sapin_Test_tiles2.png-f5a9b0236cccba99303959878fb9108a.s3tc.ctex"]
+source_file="res://Assets/models/trees/Sapin_Test_tiles2.png"
+dest_files=["res://.godot/imported/Sapin_Test_tiles2.png-48872b21da6066adc75fc0723b3d3885.s3tc.ctex"]
 
 [params]
 

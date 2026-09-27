@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtbkm55t8ntt7"
-path.s3tc="res://.godot/imported/Quenouille_Test_tiles2.png-8e8de05d110d27ad70eab5c6bd006faa.s3tc.ctex"
+path.s3tc="res://.godot/imported/Quenouille_Test_tiles2.png-6361cd155e54f52057be0a25778efc97.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/Assets_TileMap/Quenouille_Test_tiles2.png"
-dest_files=["res://.godot/imported/Quenouille_Test_tiles2.png-8e8de05d110d27ad70eab5c6bd006faa.s3tc.ctex"]
+source_file="res://Assets/Assets_TileMap/Quenouille_Test_tiles2.png"
+dest_files=["res://.godot/imported/Quenouille_Test_tiles2.png-6361cd155e54f52057be0a25778efc97.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bope3div08l5t"
-path.s3tc="res://.godot/imported/Tiles_Herbe et terre_Corner_Test_tiles2.png-36f30c4359d845709aee1f9ca67c292f.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tiles_Herbe et terre_Corner_Test_tiles2.png-99a2c259bc5dfdae436ce704416ae59c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/Assets_TileMap/Tiles_Herbe et terre_Corner_Test_tiles2.png"
-dest_files=["res://.godot/imported/Tiles_Herbe et terre_Corner_Test_tiles2.png-36f30c4359d845709aee1f9ca67c292f.s3tc.ctex"]
+source_file="res://Assets/Assets_TileMap/Tiles_Herbe et terre_Corner_Test_tiles2.png"
+dest_files=["res://.godot/imported/Tiles_Herbe et terre_Corner_Test_tiles2.png-99a2c259bc5dfdae436ce704416ae59c.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6eam4uyp52iu"
-path.s3tc="res://.godot/imported/Buisson3_Test_tiles2.png-30319e8d14b160563c1aea11b7f52d61.s3tc.ctex"
+path.s3tc="res://.godot/imported/Buisson3_Test_tiles2.png-9d68747a2cc7c0a91900f1166339222e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/trees/Buisson3_Test_tiles2.png"
-dest_files=["res://.godot/imported/Buisson3_Test_tiles2.png-30319e8d14b160563c1aea11b7f52d61.s3tc.ctex"]
+source_file="res://Assets/models/trees/Buisson3_Test_tiles2.png"
+dest_files=["res://.godot/imported/Buisson3_Test_tiles2.png-9d68747a2cc7c0a91900f1166339222e.s3tc.ctex"]
 
 [params]
 

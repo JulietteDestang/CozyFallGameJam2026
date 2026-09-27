@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgg3pr7r5iy73"
-path="res://.godot/imported/Tiles_Herbe_eau_corner.glb-eea2df0b0ea5f21cd22530b5a132fcaa.scn"
+path="res://.godot/imported/Tiles_Herbe_eau_corner.glb-6d8777ce2b12c4c4b22018b794aeda5f.scn"
 
 [deps]
 
-source_file="res://assets/models/Tiles_Herbe_eau_corner.glb"
-dest_files=["res://.godot/imported/Tiles_Herbe_eau_corner.glb-eea2df0b0ea5f21cd22530b5a132fcaa.scn"]
+source_file="res://Assets/models/Tiles_Herbe_eau_corner.glb"
+dest_files=["res://.godot/imported/Tiles_Herbe_eau_corner.glb-6d8777ce2b12c4c4b22018b794aeda5f.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bhvvlljf21d42"
-path="res://.godot/imported/citrouille.glb-d5331471cb7b82460a46b557c8c3a4d9.scn"
+path="res://.godot/imported/citrouille.glb-9faaf0ef5c21a7028f86a82a271f3230.scn"
 
 [deps]
 
-source_file="res://assets/models/citrouille.glb"
-dest_files=["res://.godot/imported/citrouille.glb-d5331471cb7b82460a46b557c8c3a4d9.scn"]
+source_file="res://Assets/models/citrouille.glb"
+dest_files=["res://.godot/imported/citrouille.glb-9faaf0ef5c21a7028f86a82a271f3230.scn"]
 
 [params]
 

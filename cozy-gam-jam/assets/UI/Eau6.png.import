@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2r04ydw7gdw1"
-path="res://.godot/imported/Eau6.png-69814ac9a0bc3749a05959d14404fdab.ctex"
+path="res://.godot/imported/Eau6.png-ad34bde3d9ae51696427f44c3462289e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/Eau6.png"
-dest_files=["res://.godot/imported/Eau6.png-69814ac9a0bc3749a05959d14404fdab.ctex"]
+source_file="res://Assets/UI/Eau6.png"
+dest_files=["res://.godot/imported/Eau6.png-ad34bde3d9ae51696427f44c3462289e.ctex"]
 
 [params]
 

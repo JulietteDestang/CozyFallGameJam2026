@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8vyoa3g8kejv"
-path.s3tc="res://.godot/imported/Bolet base_Bolet texture 16x16.png-7eb39053ba9df295b14f4164ba2227d7.s3tc.ctex"
+path.s3tc="res://.godot/imported/Bolet base_Bolet texture 16x16.png-f2cd2f5ec103716191cd4d28b81bc9f8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/Bolet base_Bolet texture 16x16.png"
-dest_files=["res://.godot/imported/Bolet base_Bolet texture 16x16.png-7eb39053ba9df295b14f4164ba2227d7.s3tc.ctex"]
+source_file="res://Assets/Bolet base_Bolet texture 16x16.png"
+dest_files=["res://.godot/imported/Bolet base_Bolet texture 16x16.png-f2cd2f5ec103716191cd4d28b81bc9f8.s3tc.ctex"]
 
 [params]
 

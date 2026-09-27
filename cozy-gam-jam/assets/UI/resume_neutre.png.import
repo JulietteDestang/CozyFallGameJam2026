@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3jc4bjd3c5cn"
-path="res://.godot/imported/resume_neutre.png-f5040ece27ba6e5d238b6c4d5128fa34.ctex"
+path="res://.godot/imported/resume_neutre.png-eb34833f69f704504bf9491a238a902b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/resume_neutre.png"
-dest_files=["res://.godot/imported/resume_neutre.png-f5040ece27ba6e5d238b6c4d5128fa34.ctex"]
+source_file="res://Assets/UI/resume_neutre.png"
+dest_files=["res://.godot/imported/resume_neutre.png-eb34833f69f704504bf9491a238a902b.ctex"]
 
 [params]
 

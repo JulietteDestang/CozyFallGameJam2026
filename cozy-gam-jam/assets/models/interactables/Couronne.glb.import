@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b0iki5gicl03j"
-path="res://.godot/imported/Couronne.glb-aa753471b823b15df16a3ff463474cd1.scn"
+path="res://.godot/imported/Couronne.glb-2060069933b09097d0af92bf12da0b77.scn"
 
 [deps]
 
-source_file="res://assets/models/interactables/Couronne.glb"
-dest_files=["res://.godot/imported/Couronne.glb-aa753471b823b15df16a3ff463474cd1.scn"]
+source_file="res://Assets/models/interactables/Couronne.glb"
+dest_files=["res://.godot/imported/Couronne.glb-2060069933b09097d0af92bf12da0b77.scn"]
 
 [params]
 

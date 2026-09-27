@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdpgvxp2tfyjh"
-path.s3tc="res://.godot/imported/citrouille_Golden mushroom.png-753e89493de570126ddfb71868e6d645.s3tc.ctex"
+path.s3tc="res://.godot/imported/citrouille_Golden mushroom.png-8127ed9dcd266fa88309991bc66f34c0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/citrouille_Golden mushroom.png"
-dest_files=["res://.godot/imported/citrouille_Golden mushroom.png-753e89493de570126ddfb71868e6d645.s3tc.ctex"]
+source_file="res://Assets/models/citrouille_Golden mushroom.png"
+dest_files=["res://.godot/imported/citrouille_Golden mushroom.png-8127ed9dcd266fa88309991bc66f34c0.s3tc.ctex"]
 
 [params]
 

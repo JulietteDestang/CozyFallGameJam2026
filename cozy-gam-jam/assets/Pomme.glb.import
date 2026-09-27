@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bh05ey763fihf"
-path="res://.godot/imported/Pomme.glb-9d590648093f1c304818a6a73765b295.scn"
+path="res://.godot/imported/Pomme.glb-659f52dbc28085963ca9ede1d8185925.scn"
 
 [deps]
 
-source_file="res://assets/Pomme.glb"
-dest_files=["res://.godot/imported/Pomme.glb-9d590648093f1c304818a6a73765b295.scn"]
+source_file="res://Assets/Pomme.glb"
+dest_files=["res://.godot/imported/Pomme.glb-659f52dbc28085963ca9ede1d8185925.scn"]
 
 [params]
 

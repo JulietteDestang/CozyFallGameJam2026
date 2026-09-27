@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://28nr1mo2jb8"
-path="res://.godot/imported/casbon2.glb-c8da337944997d770aa2efba04d53c4c.scn"
+path="res://.godot/imported/casbon2.glb-c975ab38d6d997189a710ed3a13042e0.scn"
 
 [deps]
 
-source_file="res://assets/Assets_TileMap/casbon2.glb"
-dest_files=["res://.godot/imported/casbon2.glb-c8da337944997d770aa2efba04d53c4c.scn"]
+source_file="res://Assets/Assets_TileMap/casbon2.glb"
+dest_files=["res://.godot/imported/casbon2.glb-c975ab38d6d997189a710ed3a13042e0.scn"]
 
 [params]
 

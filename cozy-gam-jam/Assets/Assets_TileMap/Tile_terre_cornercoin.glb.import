@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://da0bp37gawtol"
-path="res://.godot/imported/Tile_terre_cornercoin.glb-3489190d4fa150a636b52c6d1c4e0747.scn"
+path="res://.godot/imported/Tile_terre_cornercoin.glb-b4da6c104dd7e8fc79b3a56d977db521.scn"
 
 [deps]
 
-source_file="res://assets/Assets_TileMap/Tile_terre_cornercoin.glb"
-dest_files=["res://.godot/imported/Tile_terre_cornercoin.glb-3489190d4fa150a636b52c6d1c4e0747.scn"]
+source_file="res://Assets/Assets_TileMap/Tile_terre_cornercoin.glb"
+dest_files=["res://.godot/imported/Tile_terre_cornercoin.glb-b4da6c104dd7e8fc79b3a56d977db521.scn"]
 
 [params]
 

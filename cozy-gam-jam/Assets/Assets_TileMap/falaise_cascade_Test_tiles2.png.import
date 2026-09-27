@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r620k7enc5ul"
-path.s3tc="res://.godot/imported/falaise_cascade_Test_tiles2.png-c7743d6e9a231035c71e1009befcccd7.s3tc.ctex"
+path.s3tc="res://.godot/imported/falaise_cascade_Test_tiles2.png-708fecd22679e6aa14d30c40904ea8df.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/Assets_TileMap/falaise_cascade_Test_tiles2.png"
-dest_files=["res://.godot/imported/falaise_cascade_Test_tiles2.png-c7743d6e9a231035c71e1009befcccd7.s3tc.ctex"]
+source_file="res://Assets/Assets_TileMap/falaise_cascade_Test_tiles2.png"
+dest_files=["res://.godot/imported/falaise_cascade_Test_tiles2.png-708fecd22679e6aa14d30c40904ea8df.s3tc.ctex"]
 
 [params]
 

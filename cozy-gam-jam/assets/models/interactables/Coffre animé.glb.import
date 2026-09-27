@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2dqy73vlwram"
-path="res://.godot/imported/Coffre animé.glb-fd0ba2c9191bd0ca402382bc0875a561.scn"
+path="res://.godot/imported/Coffre animé.glb-921da8807ff211a85a915edeb4365350.scn"
 
 [deps]
 
-source_file="res://assets/models/interactables/Coffre animé.glb"
-dest_files=["res://.godot/imported/Coffre animé.glb-fd0ba2c9191bd0ca402382bc0875a561.scn"]
+source_file="res://Assets/models/interactables/Coffre animé.glb"
+dest_files=["res://.godot/imported/Coffre animé.glb-921da8807ff211a85a915edeb4365350.scn"]
 
 [params]
 

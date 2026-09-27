@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ogupi2ygdy7q"
-path.s3tc="res://.godot/imported/Arbre var2_Test_tiles2.png-e3521da376be87e124b4038da591742a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Arbre var2_Test_tiles2.png-bcc0cefba2bd0a3aff03506b7ac728aa.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/trees/tree2/Arbre var2_Test_tiles2.png"
-dest_files=["res://.godot/imported/Arbre var2_Test_tiles2.png-e3521da376be87e124b4038da591742a.s3tc.ctex"]
+source_file="res://Assets/models/trees/tree2/Arbre var2_Test_tiles2.png"
+dest_files=["res://.godot/imported/Arbre var2_Test_tiles2.png-bcc0cefba2bd0a3aff03506b7ac728aa.s3tc.ctex"]
 
 [params]
 

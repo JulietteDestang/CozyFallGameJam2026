@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cgq5q1ee0tyyo"
-path="res://.godot/imported/Arbre var3.glb-b00d77052a1ebf9e2b79e854228b7b18.scn"
+path="res://.godot/imported/Arbre var3.glb-7def9b9d09a07a5d830d482b75204a8d.scn"
 
 [deps]
 
-source_file="res://assets/models/trees/tree3/Arbre var3.glb"
-dest_files=["res://.godot/imported/Arbre var3.glb-b00d77052a1ebf9e2b79e854228b7b18.scn"]
+source_file="res://Assets/models/trees/tree3/Arbre var3.glb"
+dest_files=["res://.godot/imported/Arbre var3.glb-7def9b9d09a07a5d830d482b75204a8d.scn"]
 
 [params]
 
@@ -43,172 +43,172 @@ _subresources={
 "materials": {
 "Material": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.tres",
 "use_external/path": "uid://bct6jq8tedded"
 },
 "Material.019": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.019.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.019.tres",
 "use_external/path": "uid://bl6cvrcpuwtrr"
 },
 "Material.020": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.020.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.020.tres",
 "use_external/path": "uid://bquq02b0fsmr4"
 },
 "Material.021": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.021.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.021.tres",
 "use_external/path": "uid://dh3ii7m56nmen"
 },
 "Material.022": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.022.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.022.tres",
 "use_external/path": "uid://cc1l7qn085q2p"
 },
 "Material.023": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.023.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.023.tres",
 "use_external/path": "uid://bxk3lncsf0eqt"
 },
 "Material.098": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.098.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.098.tres",
 "use_external/path": "uid://c1nih45aigcmp"
 },
 "Material.099": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.099.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.099.tres",
 "use_external/path": "uid://bdi4jlscp221x"
 },
 "Material.100": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.100.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.100.tres",
 "use_external/path": "uid://bvi37dpwhitay"
 },
 "Material.101": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.101.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.101.tres",
 "use_external/path": "uid://cy3bygx15my3b"
 },
 "Material.102": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.102.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.102.tres",
 "use_external/path": "uid://bl2l4soqxeesb"
 },
 "Material.103": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.103.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.103.tres",
 "use_external/path": "uid://gjpegakpya5h"
 },
 "Material.104": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.104.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.104.tres",
 "use_external/path": "uid://cd038pif5g8by"
 },
 "Material.105": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.105.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.105.tres",
 "use_external/path": "uid://bx2ntt3oqpayy"
 },
 "Material.106": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.106.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.106.tres",
 "use_external/path": "uid://bjx41gjvxk1yn"
 },
 "Material.107": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.107.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.107.tres",
 "use_external/path": "uid://dcpvvv8hpm3q3"
 },
 "Material.108": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.108.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.108.tres",
 "use_external/path": "uid://c8aj6r0oeayjm"
 },
 "Material.109": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.109.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.109.tres",
 "use_external/path": "uid://pira44gq34mc"
 },
 "Material.110": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.110.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.110.tres",
 "use_external/path": "uid://bsyy3cwhfks75"
 },
 "Material.111": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.111.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.111.tres",
 "use_external/path": "uid://b60loquan8lhy"
 },
 "Material.112": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.112.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.112.tres",
 "use_external/path": "uid://dww6cbsxlhd7o"
 },
 "Material.113": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.113.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.113.tres",
 "use_external/path": "uid://bsfigeflboslx"
 },
 "Material.114": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.114.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.114.tres",
 "use_external/path": "uid://y8ascu826cp3"
 },
 "Material.115": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.115.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.115.tres",
 "use_external/path": "uid://cjbot8fabbj5o"
 },
 "Material.116": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.116.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.116.tres",
 "use_external/path": "uid://dy25c2jv2qaup"
 },
 "Material.117": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.117.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.117.tres",
 "use_external/path": "uid://c6s26hrssnvpj"
 },
 "Material.118": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.118.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.118.tres",
 "use_external/path": "uid://cej3phy08fuvb"
 },
 "Material.119": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.119.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.119.tres",
 "use_external/path": "uid://cwbtracyos4fu"
 },
 "Material.120": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.120.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.120.tres",
 "use_external/path": "uid://bbfd1ktk7giax"
 },
 "Material.121": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.121.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.121.tres",
 "use_external/path": "uid://by1juuhj8v2ja"
 },
 "Material.122": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.122.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.122.tres",
 "use_external/path": "uid://c6bytcerbu7v4"
 },
 "Material.123": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.123.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.123.tres",
 "use_external/path": "uid://6ipnhami1t5u"
 },
 "Material.124": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.124.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.124.tres",
 "use_external/path": "uid://p25mq133umfk"
 },
 "Material.125": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.125.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.125.tres",
 "use_external/path": "uid://d25qi1br5t5nc"
 }
 }

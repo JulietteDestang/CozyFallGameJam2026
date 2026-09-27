@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dpu2ddqqrwenr"
-path="res://.godot/imported/Caillou.glb-e9af01e09aee38f5eb2a91fb176f0d08.scn"
+path="res://.godot/imported/Caillou.glb-ed5059997a6f07382073aa3912ae7822.scn"
 
 [deps]
 
-source_file="res://assets/models/Caillou.glb"
-dest_files=["res://.godot/imported/Caillou.glb-e9af01e09aee38f5eb2a91fb176f0d08.scn"]
+source_file="res://Assets/models/Caillou.glb"
+dest_files=["res://.godot/imported/Caillou.glb-ed5059997a6f07382073aa3912ae7822.scn"]
 
 [params]
 

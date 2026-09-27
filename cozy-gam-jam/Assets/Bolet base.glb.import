@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://blvc2c7ievbp6"
-path="res://.godot/imported/Bolet base.glb-87651ed82a5a81e473c1bc9aff6d1659.scn"
+path="res://.godot/imported/Bolet base.glb-0c9d0e45453b982f63a1110dfad3abf0.scn"
 
 [deps]
 
-source_file="res://assets/Bolet base.glb"
-dest_files=["res://.godot/imported/Bolet base.glb-87651ed82a5a81e473c1bc9aff6d1659.scn"]
+source_file="res://Assets/Bolet base.glb"
+dest_files=["res://.godot/imported/Bolet base.glb-0c9d0e45453b982f63a1110dfad3abf0.scn"]
 
 [params]
 

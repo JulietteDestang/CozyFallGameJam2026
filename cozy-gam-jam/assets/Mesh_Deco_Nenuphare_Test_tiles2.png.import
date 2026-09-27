@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3geuldryw3e"
-path.s3tc="res://.godot/imported/Mesh_Deco_Nenuphare_Test_tiles2.png-a72ea04d316320f3f96b53f087c63275.s3tc.ctex"
+path.s3tc="res://.godot/imported/Mesh_Deco_Nenuphare_Test_tiles2.png-8fa3e968b958f741e5d83f5439863d53.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/Mesh_Deco_Nenuphare_Test_tiles2.png"
-dest_files=["res://.godot/imported/Mesh_Deco_Nenuphare_Test_tiles2.png-a72ea04d316320f3f96b53f087c63275.s3tc.ctex"]
+source_file="res://Assets/Mesh_Deco_Nenuphare_Test_tiles2.png"
+dest_files=["res://.godot/imported/Mesh_Deco_Nenuphare_Test_tiles2.png-8fa3e968b958f741e5d83f5439863d53.s3tc.ctex"]
 
 [params]
 

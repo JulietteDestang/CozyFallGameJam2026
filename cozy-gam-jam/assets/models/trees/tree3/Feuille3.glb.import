@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3ngnuucjgxow"
-path="res://.godot/imported/Feuille3.glb-9843109eef61ccfca2f1e8e0d770fff9.scn"
+path="res://.godot/imported/Feuille3.glb-9cae87f44e14e46de9f99aaba4156418.scn"
 
 [deps]
 
-source_file="res://assets/models/trees/tree3/Feuille3.glb"
-dest_files=["res://.godot/imported/Feuille3.glb-9843109eef61ccfca2f1e8e0d770fff9.scn"]
+source_file="res://Assets/models/trees/tree3/Feuille3.glb"
+dest_files=["res://.godot/imported/Feuille3.glb-9cae87f44e14e46de9f99aaba4156418.scn"]
 
 [params]
 
@@ -43,7 +43,7 @@ _subresources={
 "materials": {
 "Material.041": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree3/Material.041.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree3/Material.041.tres",
 "use_external/path": "uid://bg84rgsrb5hq0"
 }
 },

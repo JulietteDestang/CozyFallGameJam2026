@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://v23qfnv61lo3"
-path="res://.godot/imported/Feuille1.glb-aa7d53fced5de5b0b43a945a96922b5e.scn"
+path="res://.godot/imported/Feuille1.glb-8f9b1bee766ad613600dd14c5a185135.scn"
 
 [deps]
 
-source_file="res://assets/models/trees/tree1/Feuille1.glb"
-dest_files=["res://.godot/imported/Feuille1.glb-aa7d53fced5de5b0b43a945a96922b5e.scn"]
+source_file="res://Assets/models/trees/tree1/Feuille1.glb"
+dest_files=["res://.godot/imported/Feuille1.glb-8f9b1bee766ad613600dd14c5a185135.scn"]
 
 [params]
 
@@ -43,7 +43,7 @@ _subresources={
 "materials": {
 "Material.043": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://assets/models/trees/tree1/Material.043.tres",
+"use_external/fallback_path": "res://Assets/models/trees/tree1/Material.043.tres",
 "use_external/path": "uid://djn5rwwod5hsk"
 }
 },
@@ -54,7 +54,7 @@ _subresources={
 "generate/shadow_meshes": 0,
 "lods/normal_merge_angle": 20.0,
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/models/trees/tree1/feuille1_arraymesh.tres",
+"save_to_file/fallback_path": "res://Assets/models/trees/tree1/feuille1_arraymesh.tres",
 "save_to_file/path": "uid://bou7asf28nt2m"
 }
 }

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cj6njeps4fx27"
-path="res://.godot/imported/countryside quiet forest bird gull call.wav-98040f40924022a818ef660e564f3661.sample"
+path="res://.godot/imported/countryside quiet forest bird gull call.wav-3ab79934c45675cf8ce74029fb3f8cd2.sample"
 
 [deps]
 
-source_file="res://assets/Audio/countryside quiet forest bird gull call.wav"
-dest_files=["res://.godot/imported/countryside quiet forest bird gull call.wav-98040f40924022a818ef660e564f3661.sample"]
+source_file="res://Assets/Audio/countryside quiet forest bird gull call.wav"
+dest_files=["res://.godot/imported/countryside quiet forest bird gull call.wav-3ab79934c45675cf8ce74029fb3f8cd2.sample"]
 
 [params]
 

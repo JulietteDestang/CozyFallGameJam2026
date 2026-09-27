@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bufcbogy63ywr"
-path="res://.godot/imported/Quenouille.glb-613576e867dcb13b5f9668b95c4fd609.scn"
+path="res://.godot/imported/Quenouille.glb-dd564eb28cfc76696595c8b9df09dd4f.scn"
 
 [deps]
 
-source_file="res://assets/Assets_TileMap/Quenouille.glb"
-dest_files=["res://.godot/imported/Quenouille.glb-613576e867dcb13b5f9668b95c4fd609.scn"]
+source_file="res://Assets/Assets_TileMap/Quenouille.glb"
+dest_files=["res://.godot/imported/Quenouille.glb-dd564eb28cfc76696595c8b9df09dd4f.scn"]
 
 [params]
 

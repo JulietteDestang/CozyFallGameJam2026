@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nljd2wxvdt0k"
-path.s3tc="res://.godot/imported/Tiles_Falaise_Fond_Neutre_1_Test_tiles2.png-595edd3b42280986af333bcb7f1336d0.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tiles_Falaise_Fond_Neutre_1_Test_tiles2.png-c15230529fec2d459d44636b8ce7c1c5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/Assets_TileMap/Tiles_Falaise_Fond_Neutre_1_Test_tiles2.png"
-dest_files=["res://.godot/imported/Tiles_Falaise_Fond_Neutre_1_Test_tiles2.png-595edd3b42280986af333bcb7f1336d0.s3tc.ctex"]
+source_file="res://Assets/Assets_TileMap/Tiles_Falaise_Fond_Neutre_1_Test_tiles2.png"
+dest_files=["res://.godot/imported/Tiles_Falaise_Fond_Neutre_1_Test_tiles2.png-c15230529fec2d459d44636b8ce7c1c5.s3tc.ctex"]
 
 [params]
 
