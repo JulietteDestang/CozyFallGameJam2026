@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://86s8d73ax5jh"]
 
 [ext_resource type="Script" uid="uid://b436jf8byt3u4" path="res://Scripts/Environment/click_handler.gd" id="1_wbfu4"]
+[ext_resource type="PackedScene" uid="uid://d3hn0pmdexdhr" path="res://Scenes/wa.tscn" id="2_bvhbk"]
 [ext_resource type="Script" uid="uid://433gk5s3uff8" path="res://Scripts/Environment/camera.gd" id="2_sb48q"]
 [ext_resource type="Script" uid="uid://bkmgldsivmfh4" path="res://Scripts/Interactable/ground.gd" id="2_xkndl"]
 [ext_resource type="Texture2D" uid="uid://cyc0ftcx08vmm" path="res://assets/UI/Herbe_1.png" id="3_t88pq"]
@@ -17,6 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://b2dqy73vlwram" path="res://assets/models/interactables/Coffre animé.glb" id="15_0yprl"]
 [ext_resource type="PackedScene" uid="uid://b0iki5gicl03j" path="res://assets/models/interactables/Couronne.glb" id="16_wuoie"]
 [ext_resource type="PackedScene" uid="uid://d0gy66gjninja" path="res://assets/models/interactables/Quenouille.glb" id="17_bvhbk"]
+[ext_resource type="PackedScene" uid="uid://dsacuw4r8v0py" path="res://Scenes/nenuphar.tscn" id="18_wuoie"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xk8u7"]
 albedo_color = Color(0.13945998, 0.40476263, 0.30641764, 1)
@@ -67,6 +69,21 @@ dof_blur_amount = 0.21
 [node name="Game2" type="Node3D" unique_id=1219061469]
 script = ExtResource("1_wbfu4")
 
+[node name="Nenuphar" parent="." unique_id=1702075022 instance=ExtResource("18_wuoie")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4828409, 0.13679409, -5.8315616)
+
+[node name="Rock3" parent="." unique_id=206065559 instance=ExtResource("2_bvhbk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.18147242, -6.235092)
+
+[node name="Rock3" parent="Rock3" unique_id=1612271109 instance=ExtResource("2_bvhbk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.89587116)
+
+[node name="Rock3" parent="Rock3/Rock3" unique_id=1223314330 instance=ExtResource("2_bvhbk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8441825, 0, -0.003077507)
+
+[node name="Rock3" parent="Rock3/Rock3/Rock3" unique_id=1370393672 instance=ExtResource("2_bvhbk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0003874302, 0, -0.8909321)
+
 [node name="PauseMenu" parent="." unique_id=2069267632 instance=ExtResource("14_yyih5")]
 visible = false
 
@@ -104,11 +121,11 @@ transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, -9.568127)
 
 [node name="Apple" parent="." unique_id=1916214976 instance=ExtResource("8_joorw")]
 
-[node name="Rock" parent="." unique_id=206065559 instance=ExtResource("9_2vekm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.09853244, -4.189131)
+[node name="Rock" parent="." unique_id=1285526776 instance=ExtResource("9_2vekm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0986438, -0.09853244, -9.317846)
 
 [node name="Rock2" parent="." unique_id=1154975039 instance=ExtResource("9_2vekm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9026437, -0.082935095, -3.6170926)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.0012875, -0.082935095, -8.745808)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=682962952]
 environment = SubResource("Environment_gwjdr")
@@ -166,13 +183,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.433418, 0.31790304, -0.704
 transform = Transform3D(1.385, 0, 0, 0, 1.385, 0, 0, 0, 1.385, -9.092588, 0.32651496, -1.6730886)
 
 [node name="arb_13" parent="treesParent" unique_id=1408173494 instance=ExtResource("11_lvtmh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6902285, -0.005738169, -7.098757)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.120385, -0.005738169, -8.723802)
 
 [node name="arb_14" parent="treesParent" unique_id=1964479490 instance=ExtResource("12_yyih5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.96166134, 0.31790304, -6.391389)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4200559, 0.31790304, -7.483381)
 
 [node name="arb_15" parent="treesParent" unique_id=515717361 instance=ExtResource("13_qjyg3")]
-transform = Transform3D(1.385, 0, 0, 0, 1.385, 0, 0, 0, 1.385, -0.6208315, 0.32651496, -7.3599734)
+transform = Transform3D(1.385, 0, 0, 0, 1.385, 0, 0, 0, 1.385, 1.3453546, 0.32651496, -7.7166758)
 
 [node name="arb_17" parent="treesParent" unique_id=264156963 instance=ExtResource("11_lvtmh")]
 transform = Transform3D(0.29920188, 0, -0.95418984, 0, 1, 0, 0.95418984, 0, 0.29920188, 4.820324, 0.31216487, 0.23561287)

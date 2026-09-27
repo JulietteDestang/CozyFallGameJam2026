@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://d3hn0pmdexdhr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uj3h4"]
+size = Vector3(1, 0.9394226, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8d16g"]
+albedo_color = Color(0.12156863, 0.6862745, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_274va"]
+
+[node name="Rock" type="StaticBody3D" unique_id=206065559 groups=["water"]]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2092695754]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.33450168, 0)
+shape = SubResource("BoxShape3D_uj3h4")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=59810879]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.46266025, 0)
+material_override = SubResource("StandardMaterial3D_8d16g")
+mesh = SubResource("BoxMesh_274va")

@@ -16,6 +16,8 @@ var is_blocked: bool = false
 
 
 func _ready() -> void:
+	add_to_group("red_zone")
+	print("CircleZone layer=", collision_layer, " mask=", collision_mask, " monitorable=", monitorable)
 	# Duplique le shape pour que CE cercle ait sa propre instance, indépendante des autres
 	if collision_shape.shape is CylinderShape3D:
 		collision_shape.shape = collision_shape.shape.duplicate()

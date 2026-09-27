@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dsacuw4r8v0py"]
+
+[ext_resource type="Script" uid="uid://bjkqsbyejs5bb" path="res://Scripts/Interactable/nenuphar.gd" id="1_o2rll"]
+[ext_resource type="PackedScene" uid="uid://bl8q5hm4kjkmw" path="res://assets/Mesh_Deco_Nenuphare.glb" id="2_rbehf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hjr5x"]
+albedo_color = Color(1, 0.84313726, 0.49411765, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_8alym"]
+top_radius = 1.0
+bottom_radius = 1.0
+height = 0.01
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_274va"]
+height = 0.5
+radius = 1.0
+
+[node name="Nenuphar" type="StaticBody3D" unique_id=1702075022]
+script = ExtResource("1_o2rll")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1304668359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.079919994, 0)
+material_override = SubResource("StandardMaterial3D_hjr5x")
+mesh = SubResource("CylinderMesh_8alym")
+
+[node name="Mesh_Deco_Nenuphare2" parent="." unique_id=1839648936 instance=ExtResource("2_rbehf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1002295, 0)
+
+[node name="Area3D" type="Area3D" parent="." unique_id=95263145]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1266405888]
+shape = SubResource("CylinderShape3D_274va")

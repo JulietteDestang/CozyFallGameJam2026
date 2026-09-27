@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://tfyjra5jeb8" path="res://Scripts/Interactable/Mushroom/mushroom_brown.gd" id="1_gfhr4"]
 [ext_resource type="PackedScene" uid="uid://blvc2c7ievbp6" path="res://assets/Bolet base.glb" id="2_4o2kv"]
 [ext_resource type="PackedScene" uid="uid://nresoubhifai" path="res://Scripts/Interactable/Mushroom/CircleZone.tscn" id="2_yoi2n"]
-[ext_resource type="PackedScene" uid="uid://mx2mw1vviioe" path="res://assets/Champi anim.glb" id="3_yoi2n"]
 
 [node name="Mushroom" type="StaticBody3D" unique_id=1916214976]
 script = ExtResource("1_gfhr4")
@@ -11,5 +10,3 @@ circle_zone_scene = ExtResource("2_yoi2n")
 
 [node name="Bolet base" parent="." unique_id=249199291 instance=ExtResource("2_4o2kv")]
 transform = Transform3D(0.2, 0, 0, 0, 0.19923896, 0.01743115, 0, -0.01743115, 0.19923896, 0, 0, 0)
-
-[node name="Champi anim" parent="." unique_id=1974894712 instance=ExtResource("3_yoi2n")]

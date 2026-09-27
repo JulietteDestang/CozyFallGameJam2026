@@ -22,7 +22,7 @@ func _start_destruction_timer() -> void:
 
 	# Supprime tous les blocks présents dans la zone au moment de l'explosion
 	for body in detection_area.get_overlapping_bodies():
-		if body.is_in_group("block") and is_instance_valid(body):
+		if body.is_in_group("explode") and is_instance_valid(body):
 			print("BLOCK DÉTRUIT : ", body.name)
 			body.queue_free()
 

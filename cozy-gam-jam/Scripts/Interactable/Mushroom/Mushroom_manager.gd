@@ -20,7 +20,6 @@ func spawn_mushroom(type: String, pos: Vector3, parent: Node) -> void:
 		push_warning("Type de champignon inconnu: " + type)
 		return
 
-	# Nettoie la liste des instances invalides (détruites)
 	active_mushrooms = active_mushrooms.filter(func(m): return is_instance_valid(m))
 
 	var mushroom = mushroom_scenes[type].instantiate()
@@ -29,11 +28,13 @@ func spawn_mushroom(type: String, pos: Vector3, parent: Node) -> void:
 	mushroom.global_position = Vector3(pos.x, 0, pos.z)
 	mushroom.initialize()
 
-	if not mushroom.can_be_placed_at(pos, active_mushrooms):
+	var can_place = mushroom.can_be_placed_at(pos, active_mushrooms)
+	print("can_be_placed_at résultat : ", can_place, " pour type ", type, " à pos ", pos)
+
+	if not can_place:
 		print("Impossible de placer ici")
 		mushroom.queue_free()
 		return
 		
 	GlobalSfxController.playMushplacement()
-
 	active_mushrooms.append(mushroom)
