@@ -42,6 +42,16 @@
 [ext_resource type="PackedScene" uid="uid://28nr1mo2jb8" path="res://Assets/Assets_TileMap/casbon2.glb" id="40_e481e"]
 [ext_resource type="PackedScene" uid="uid://by3m1n714bae1" path="res://Assets/Assets_TileMap/casbon3.glb" id="41_ea1ho"]
 [ext_resource type="PackedScene" uid="uid://dq4eyiw6hgeh3" path="res://Assets/Assets_TileMap/casbon4.glb" id="42_50c2k"]
+[ext_resource type="PackedScene" uid="uid://b1smwbtcdfgir" path="res://Assets/Assets_TileMap/Mesh_Deco_Herbe_1.glb" id="43_e481e"]
+[ext_resource type="PackedScene" uid="uid://cbsfmnk8n78ta" path="res://Assets/Assets_TileMap/Mesh_Deco_Herbe_2.glb" id="44_ea1ho"]
+[ext_resource type="PackedScene" uid="uid://tr51byb5bmnf" path="res://Assets/Assets_TileMap/Mesh_Deco_Herbe_3.glb" id="45_50c2k"]
+[ext_resource type="PackedScene" uid="uid://b0pj4m0gt5jjw" path="res://Assets/Assets_TileMap/Mesh_Deco_Herbe_4.glb" id="46_cubqe"]
+[ext_resource type="PackedScene" uid="uid://bl8q5hm4kjkmw" path="res://Assets/Assets_TileMap/Mesh_Deco_Nenuphare.glb" id="47_tovo7"]
+[ext_resource type="PackedScene" uid="uid://bojw4xs800mo1" path="res://Assets/Assets_TileMap/Mesh_Deco_Pierre_1.glb" id="48_35ro3"]
+[ext_resource type="PackedScene" uid="uid://tk8pk3w3eqmb" path="res://Assets/Assets_TileMap/Mesh_Deco_Pierre_2.glb" id="49_rf5c8"]
+[ext_resource type="PackedScene" uid="uid://chchov1yjqtsx" path="res://Assets/Assets_TileMap/Mesh_Deco_Pierre_3.glb" id="50_wji60"]
+[ext_resource type="PackedScene" uid="uid://duf4st01phtkn" path="res://Assets/Assets_TileMap/Mesh_Deco_Pierre_4.glb" id="51_3aey2"]
+[ext_resource type="PackedScene" uid="uid://de20jj38dkmsc" path="res://Assets/Assets_TileMap/Mesh_Deco_Pierre_5.glb" id="52_6jgv6"]
 
 [node name="LibraryTileMap" type="Node3D" unique_id=445231268]
 
@@ -130,3 +140,23 @@ transform = Transform3D(0.165, 0, 0, 0, 0.165, 0, 0, 0, 0.165, 0, 0, 0)
 [node name="casbon3" parent="." unique_id=1684441791 instance=ExtResource("41_ea1ho")]
 
 [node name="casbon4" parent="." unique_id=1115867333 instance=ExtResource("42_50c2k")]
+
+[node name="Mesh_Deco_Herbe_12" parent="." unique_id=619297890 instance=ExtResource("43_e481e")]
+
+[node name="Mesh_Deco_Herbe_22" parent="." unique_id=1229835027 instance=ExtResource("44_ea1ho")]
+
+[node name="Mesh_Deco_Herbe_32" parent="." unique_id=1249113564 instance=ExtResource("45_50c2k")]
+
+[node name="Mesh_Deco_Herbe_42" parent="." unique_id=1039384595 instance=ExtResource("46_cubqe")]
+
+[node name="Mesh_Deco_Nenuphare2" parent="." unique_id=1282599157 instance=ExtResource("47_tovo7")]
+
+[node name="Mesh_Deco_Pierre_12" parent="." unique_id=725720076 instance=ExtResource("48_35ro3")]
+
+[node name="Mesh_Deco_Pierre_22" parent="." unique_id=984266267 instance=ExtResource("49_rf5c8")]
+
+[node name="Mesh_Deco_Pierre_32" parent="." unique_id=168698661 instance=ExtResource("50_wji60")]
+
+[node name="Mesh_Deco_Pierre_42" parent="." unique_id=353637957 instance=ExtResource("51_3aey2")]
+
+[node name="Mesh_Deco_Pierre_52" parent="." unique_id=711528630 instance=ExtResource("52_6jgv6")]

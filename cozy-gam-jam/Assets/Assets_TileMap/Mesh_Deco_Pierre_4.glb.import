@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bl8q5hm4kjkmw"
-path="res://.godot/imported/Mesh_Deco_Nenuphare.glb-1e9f11390889ccbde7ee4e0524171efe.scn"
+uid="uid://duf4st01phtkn"
+path="res://.godot/imported/Mesh_Deco_Pierre_4.glb-4428a7feb4a18dd153cac6857038ce1b.scn"
 
 [deps]
 
-source_file="res://Assets/Mesh_Deco_Nenuphare.glb"
-dest_files=["res://.godot/imported/Mesh_Deco_Nenuphare.glb-1e9f11390889ccbde7ee4e0524171efe.scn"]
+source_file="res://Assets/Assets_TileMap/Mesh_Deco_Pierre_4.glb"
+dest_files=["res://.godot/imported/Mesh_Deco_Pierre_4.glb-4428a7feb4a18dd153cac6857038ce1b.scn"]
 
 [params]
 
