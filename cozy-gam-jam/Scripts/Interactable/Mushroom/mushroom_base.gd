@@ -3,10 +3,10 @@ class_name MushroomBase
 
 @export var creates_zone: bool = true  # <- coche/décoche dans l'inspecteur de chaque scène enfant
 @export var circle_zone_scene: PackedScene
-@export var spawn_interval: float = 5.0
+@export var spawn_interval: float = 4.0
 @export var new_circle_radius: float = 1.0
 @export var new_circle_grow_duration: float = 5.0
-@export var max_circles: int = 5
+@export var max_circles: int = 8
 
 var circles: Array = []
 

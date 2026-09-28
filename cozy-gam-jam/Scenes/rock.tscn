@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bwljk5vyi32yy"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_uj3h4"]
+[ext_resource type="PackedScene" uid="uid://dknj2v1h6355s" path="res://assets/Assets_TileMap/Caillou fissuré.glb" id="1_lgx4v"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_274va"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_uj3h4"]
 
 [node name="Rock" type="StaticBody3D" unique_id=206065559 groups=["explode"]]
 
@@ -10,6 +10,4 @@
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.49728113, 0)
 shape = SubResource("BoxShape3D_uj3h4")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=59810879]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.49728113, 0)
-mesh = SubResource("BoxMesh_274va")
+[node name="Caillou fissuré" parent="." unique_id=1207079812 instance=ExtResource("1_lgx4v")]

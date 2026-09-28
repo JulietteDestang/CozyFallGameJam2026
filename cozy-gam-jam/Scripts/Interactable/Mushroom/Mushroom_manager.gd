@@ -1,7 +1,7 @@
 extends Node
 
 var mushroom_scenes: Dictionary = {
-	"queen": preload("res://Scenes/mushroom_queen.tscn"),
+	"queen": preload("res://scenes/mushroom_queen.tscn"),
 	"simple": preload("res://scenes/mushroom_simple.tscn"),
 	"water": preload("res://scenes/mushroom_water.tscn"),
 	"explo": preload("res://scenes/mushroom_explo.tscn"),

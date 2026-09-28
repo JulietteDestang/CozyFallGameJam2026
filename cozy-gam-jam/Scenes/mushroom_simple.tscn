@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cjdix7d86qlxk" path="res://Scripts/Interactable/Mushroom/mushroom_simple.gd" id="1_s287q"]
 [ext_resource type="PackedScene" uid="uid://nresoubhifai" path="res://Scripts/Interactable/Mushroom/CircleZone.tscn" id="2_d4k3r"]
-[ext_resource type="PackedScene" uid="uid://blvc2c7ievbp6" path="res://assets/Bolet base.glb" id="3_d4k3r"]
+[ext_resource type="PackedScene" uid="uid://mx2mw1vviioe" path="res://assets/Champi anim.glb" id="3_rxusc"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_274va"]
 radius = 0.2168274
@@ -12,9 +12,19 @@ height = 0.4336548
 script = ExtResource("1_s287q")
 circle_zone_scene = ExtResource("2_d4k3r")
 
-[node name="Bolet base" parent="." unique_id=689285271 instance=ExtResource("3_d4k3r")]
-transform = Transform3D(0.1, 0, 0, 0, 0.09961947, 0.008715573, 0, -0.008715573, 0.09961947, 0, 0, 0)
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=129032855]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2027893, -0.03967741)
 shape = SubResource("CapsuleShape3D_274va")
+
+[node name="Champi anim" parent="." unique_id=1234913323 instance=ExtResource("3_rxusc")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="Skeleton3D" parent="Champi anim/Armature" parent_id_path=PackedInt32Array(1234913323, 540230265) index="0" unique_id=147166547]
+bones/0/position = Vector3(0, 1.9166197, 0)
+bones/0/rotation = Quaternion(-2.0991432e-05, 0.0003963995, 0.00157508, 0.9999987)
+bones/0/scale = Vector3(1.0150306, 1.0150305, 1.0150304)
+
+[node name="AnimationPlayer" parent="Champi anim" index="1" unique_id=1773523652]
+autoplay = &"ArmatureAction"
+
+[editable path="Champi anim"]

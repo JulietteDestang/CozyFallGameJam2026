@@ -5,10 +5,8 @@
 [ext_resource type="Texture2D" uid="uid://c0gpyf0kng273" path="res://assets/UI/champi_mauve.png" id="2_lvwyx"]
 [ext_resource type="Texture2D" uid="uid://ckpa5dstxjn31" path="res://assets/UI/champi_bolet.png" id="3_k7v7w"]
 [ext_resource type="Script" uid="uid://r7vcu8cp2dhu" path="res://Scripts/UI/ResourcesPanel.gd" id="3_sr74b"]
-[ext_resource type="Texture2D" uid="uid://bmo4robv43gl4" path="res://assets/UI/champi-bleu.png" id="4_h13kt"]
 [ext_resource type="Texture2D" uid="uid://ce8sy51nl4gfk" path="res://assets/UI/champi-rouge.png" id="5_e4pjd"]
 [ext_resource type="Texture2D" uid="uid://br8i65mmgfgy3" path="res://assets/UI/pierre.png" id="6_nnlxq"]
-[ext_resource type="Texture2D" uid="uid://b7iwuprwpa2ro" path="res://assets/UI/Eau.png" id="7_b43ov"]
 [ext_resource type="Texture2D" uid="uid://chrbrwvmgofl5" path="res://assets/UI/pomme.png" id="8_lvwyx"]
 
 [node name="inGameUI" type="Control" unique_id=671034291]
@@ -39,7 +37,7 @@ size_flags_vertical = 8
 script = ExtResource("1_1pvvf")
 
 [node name="button_queen" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=779831515]
-custom_minimum_size = Vector2(150, 75)
+custom_minimum_size = Vector2(175, 100)
 layout_mode = 2
 size_flags_vertical = 0
 
@@ -67,11 +65,12 @@ stretch_mode = 5
 [node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/button_queen/HBoxContainer" unique_id=401980701]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 11
-text = "1 coffre"
+theme_override_font_sizes/font_size = 15
+text = "mothershroom
+(unique)"
 
 [node name="button_simple" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=730742330]
-custom_minimum_size = Vector2(150, 75)
+custom_minimum_size = Vector2(175, 100)
 layout_mode = 2
 size_flags_vertical = 0
 
@@ -99,43 +98,12 @@ stretch_mode = 5
 [node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/button_simple/HBoxContainer" unique_id=434666817]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 11
-text = "1 pomme"
-
-[node name="button_water" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=2071843689]
-custom_minimum_size = Vector2(150, 75)
-layout_mode = 2
-size_flags_vertical = 0
-
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainer/button_water" unique_id=1363657468]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-alignment = 1
-
-[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/button_water/HBoxContainer" unique_id=2019240811]
-custom_minimum_size = Vector2(60, 60)
-custom_maximum_size = Vector2(200, 200)
-propagate_maximum_size = true
-layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
-mouse_filter = 2
-texture = ExtResource("4_h13kt")
-expand_mode = 5
-stretch_mode = 5
-
-[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/button_water/HBoxContainer" unique_id=1218249042]
-layout_mode = 2
-size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 11
-text = "1 eau"
+theme_override_font_sizes/font_size = 15
+text = "shroom
+(1 apple)"
 
 [node name="button_explo" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=315100772]
-custom_minimum_size = Vector2(150, 75)
+custom_minimum_size = Vector2(175, 100)
 layout_mode = 2
 size_flags_vertical = 0
 
@@ -163,8 +131,9 @@ stretch_mode = 5
 [node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/button_explo/HBoxContainer" unique_id=879608554]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 11
-text = "1 fer"
+theme_override_font_sizes/font_size = 15
+text = "boomshroom
+(1 ore)"
 
 [node name="Control" type="Control" parent="VBoxContainer" unique_id=785284179]
 custom_minimum_size = Vector2(30, 30)
@@ -212,23 +181,6 @@ layout_mode = 2
 texture = ExtResource("6_nnlxq")
 
 [node name="Iron" type="Label" parent="HBoxContainer/VBoxContainer2/HBoxContainer" unique_id=1006037315]
-layout_mode = 2
-text = "Minéraux"
-
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/VBoxContainer2" unique_id=586450274]
-layout_mode = 2
-
-[node name="PanelContainer2" type="PanelContainer" parent="HBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=1497805796]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-
-[node name="TextureRect" type="TextureRect" parent="HBoxContainer/VBoxContainer2/HBoxContainer2/PanelContainer2" unique_id=472847521]
-custom_maximum_size = Vector2(50, 60)
-layout_mode = 2
-texture = ExtResource("7_b43ov")
-
-[node name="Label2" type="Label" parent="HBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=876285513]
 layout_mode = 2
 text = "Minéraux"
 

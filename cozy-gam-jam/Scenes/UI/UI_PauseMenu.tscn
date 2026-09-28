@@ -7,7 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://oxryfehvmuyb" path="res://assets/UI/exit_neutre.png" id="5_kk342"]
 [ext_resource type="Texture2D" uid="uid://b6ayxp1ovk3pu" path="res://assets/UI/exit_click.png" id="6_o2odh"]
 [ext_resource type="Texture2D" uid="uid://dvil2cy8n1ycb" path="res://assets/UI/Exit_over.png" id="7_c7rof"]
-[ext_resource type="Shader" uid="uid://jlov3vjo6hns" path="res://Scenes/UI/UI_PauseMenuBlur.gdshader" id="8_gl45d"]
+[ext_resource type="Shader" uid="uid://jlov3vjo6hns" path="res://scenes/UI/UI_PauseMenuBlur.gdshader" id="8_gl45d"]
+[ext_resource type="Texture2D" uid="uid://cap5wlvi0qwcb" path="res://assets/models/trees/tree1/hwtoplay_over.png" id="9_5cqm3"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pgvi2"]
 shader = ExtResource("8_gl45d")
@@ -46,6 +47,24 @@ grow_vertical = 2
 mouse_filter = 2
 color = Color(1, 1, 1, 0.5882353)
 
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect" unique_id=312958305]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 195.0
+offset_top = -47.0
+offset_right = 918.0
+offset_bottom = 173.0
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 21
+text = "- You get ONE purple mushroom. Place it to start your colony!
+
+- Collect apples & use them to place red mushrooms inside your mushroom ground & expand your colony.
+
+- Collect minerals to place bomb mushrooms & clear rocks."
+horizontal_alignment = 1
+
 [node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1834591020]
 anchors_preset = 8
 anchor_left = 0.5
@@ -77,9 +96,6 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_yhmtn")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_lvtmh")
 theme_override_styles/hover = SubResource("StyleBoxTexture_gwjdr")
 
-[node name="HSeparator" type="HSeparator" parent="HBoxContainer/VBoxContainer" unique_id=39917052]
-layout_mode = 2
-
 [node name="HSeparator2" type="HSeparator" parent="HBoxContainer/VBoxContainer" unique_id=1726284968]
 layout_mode = 2
 
@@ -91,6 +107,10 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_elkpi")
 theme_override_styles/hover = SubResource("StyleBoxTexture_qjyg3")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=269306046]
+
+[node name="HwtoplayOver" type="Sprite2D" parent="." unique_id=1148322343]
+position = Vector2(563, 348)
+texture = ExtResource("9_5cqm3")
 
 [connection signal="pressed" from="HBoxContainer/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
 [connection signal="pressed" from="HBoxContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]

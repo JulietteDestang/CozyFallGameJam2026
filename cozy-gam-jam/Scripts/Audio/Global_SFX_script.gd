@@ -2,6 +2,7 @@ extends Node
 
 @onready var mushplace = $Stream_MushPlacement
 @onready var buttonClick = $Stream_ButtonClick
+@onready var Mushboom = $Stream_Mushboom
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -19,3 +20,7 @@ func playMushplacement():
 func playClick():
 	buttonClick.play()
 	await buttonClick.finished
+
+func playMushboom():
+	Mushboom.play()
+	await Mushboom.finished

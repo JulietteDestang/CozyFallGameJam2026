@@ -33,5 +33,6 @@ func _start_destruction_timer() -> void:
 			body.queue_free()
 
 	# Supprime le champignon
-	if is_inside_tree():
+	if is_inside_tree():	
+		GlobalSfxController.playMushboom()
 		queue_free()
